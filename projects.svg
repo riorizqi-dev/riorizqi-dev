@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="560" viewBox="0 0 1180 560" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+<defs>
+<linearGradient id="hd" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#4F46E5"/>
+  <stop offset="0.5" stop-color="#7C3AED"/>
+  <stop offset="1" stop-color="#8B5CF6"/>
+</linearGradient>
+</defs>
+<rect width="1180" height="560" rx="18" fill="#F8FAFC" stroke="#E2E8F0"/>
+<rect width="1180" height="64" rx="18" fill="url(#hd)"/>
+<text x="590" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">FEATURED PROJECTS</text>
+
+<g font-size="15">
+  <rect x="40" y="84" width="350" height="136" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <circle cx="70" cy="116" r="14" fill="#FFC107"/>
+  <text x="58" y="122" font-size="16" text-anchor="middle">🍛</text>
+  <text x="95" y="112" font-size="16" font-weight="700" fill="#0F172A">KantinKu</text>
+  <text x="95" y="132" font-size="12" fill="#64748B">Digital canteen system</text>
+  <text x="58" y="158" font-size="12" fill="#475569">Next.js · Supabase · Tailwind · QRIS</text>
+  <text x="58" y="178" font-size="12" fill="#475569">Multi-role · real-time stock · midtrans</text>
+  <text x="58" y="202" font-size="11" fill="#7C3AED">github.com/riorizqi-dev/kantinku</text>
+
+  <rect x="415" y="84" width="350" height="136" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <circle cx="445" cy="116" r="14" fill="#FFC107"/>
+  <text x="433" y="122" font-size="16" text-anchor="middle">⌚</text>
+  <text x="470" y="112" font-size="16" font-weight="700" fill="#0F172A">VANTOR</text>
+  <text x="470" y="132" font-size="12" fill="#64748B">Luxury watch landing page</text>
+  <text x="433" y="158" font-size="12" fill="#475569">Next.js · GSAP · Framer Motion</text>
+  <text x="433" y="178" font-size="12" fill="#475569">Cinematic scroll storytelling</text>
+  <text x="433" y="202" font-size="11" fill="#7C3AED">github.com/riorizqi-dev/vantor</text>
+
+  <rect x="790" y="84" width="350" height="136" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <circle cx="820" cy="116" r="14" fill="#FFC107"/>
+  <text x="808" y="122" font-size="16" text-anchor="middle">📊</text>
+  <text x="845" y="112" font-size="16" font-weight="700" fill="#0F172A">RFM Market</text>
+  <text x="845" y="132" font-size="12" fill="#64748B">Stocks & crypto dashboard</text>
+  <text x="808" y="158" font-size="12" fill="#475569">HTML · Tailwind (CDN)</text>
+  <text x="808" y="178" font-size="12" fill="#475569">Dark trading UI · 3 pages</text>
+  <text x="808" y="202" font-size="11" fill="#7C3AED">github.com/riorizqi-dev/rfm-market</text>
+
+  <rect x="40" y="240" width="350" height="136" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <circle cx="70" cy="272" r="14" fill="#FFC107"/>
+  <text x="58" y="278" font-size="16" text-anchor="middle">✅</text>
+  <text x="95" y="268" font-size="16" font-weight="700" fill="#0F172A">TaskTrack</text>
+  <text x="95" y="288" font-size="12" fill="#64748B">Android task manager</text>
+  <text x="58" y="314" font-size="12" fill="#475569">Kotlin · Android SDK · Gradle</text>
+  <text x="58" y="334" font-size="12" fill="#475569">Daily task management</text>
+  <text x="58" y="358" font-size="11" fill="#7C3AED">github.com/riorizqi-dev/TaskTrack</text>
+
+  <rect x="415" y="240" width="350" height="136" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <circle cx="445" cy="272" r="14" fill="#FFC107"/>
+  <text x="433" y="278" font-size="16" text-anchor="middle">💼</text>
+  <text x="470" y="268" font-size="16" font-weight="700" fill="#0F172A">Portfolio</text>
+  <text x="470" y="288" font-size="12" fill="#64748B">Personal website</text>
+  <text x="433" y="314" font-size="12" fill="#475569">React 19 · TypeScript · Vite</text>
+  <text x="433" y="334" font-size="12" fill="#475569">Framer Motion · Supabase form</text>
+  <text x="433" y="358" font-size="11" fill="#7C3AED">github.com/riorizqi-dev/portfolio</text>
+
+  <rect x="790" y="240" width="350" height="136" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <circle cx="820" cy="272" r="14" fill="#FFC107"/>
+  <text x="808" y="278" font-size="16" text-anchor="middle">🏆</text>
+  <text x="845" y="268" font-size="16" font-weight="700" fill="#0F172A">The Killer</text>
+  <text x="845" y="288" font-size="12" fill="#64748B">Dark landing page</text>
+  <text x="808" y="314" font-size="12" fill="#475569">HTML · CSS · JavaScript</text>
+  <text x="808" y="334" font-size="12" fill="#475569">Premium contract network UI</text>
+  <text x="808" y="358" font-size="11" fill="#7C3AED">github.com/riorizqi-dev/the-killer</text>
+
+  <rect x="40" y="396" width="350" height="136" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <circle cx="70" cy="428" r="14" fill="#FFC107"/>
+  <text x="58" y="434" font-size="16" text-anchor="middle">👻</text>
+  <text x="95" y="424" font-size="16" font-weight="700" fill="#0F172A">GhostMode</text>
+  <text x="95" y="444" font-size="12" fill="#64748B">Android foreground app</text>
+  <text x="58" y="470" font-size="12" fill="#475569">Kotlin · Service · Notifications</text>
+  <text x="58" y="490" font-size="12" fill="#475569">Dark mode utility</text>
+  <text x="58" y="514" font-size="11" fill="#7C3AED">github.com/riorizqi-dev/GhostMode</text>
+
+  <rect x="415" y="396" width="350" height="136" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <circle cx="445" cy="428" r="14" fill="#FFC107"/>
+  <text x="433" y="434" font-size="16" text-anchor="middle">📚</text>
+  <text x="470" y="424" font-size="16" font-weight="700" fill="#0F172A">Belajar React</text>
+  <text x="470" y="444" font-size="12" fill="#64748B">React fundamentals</text>
+  <text x="433" y="470" font-size="12" fill="#475569">React · Vite · components</text>
+  <text x="433" y="490" font-size="12" fill="#475569">Props, state & hooks</text>
+  <text x="433" y="514" font-size="11" fill="#7C3AED">github.com/riorizqi-dev/belajar-react-dasar</text>
+
+  <rect x="790" y="396" width="350" height="136" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <circle cx="820" cy="428" r="14" fill="#FFC107"/>
+  <text x="808" y="434" font-size="16" text-anchor="middle">💿</text>
+  <text x="845" y="424" font-size="16" font-weight="700" fill="#0F172A">More repos</text>
+  <text x="845" y="444" font-size="12" fill="#64748B">portfolio-rio · brightdor</text>
+  <text x="808" y="470" font-size="12" fill="#475569">Ryuuka-Store · cafe-yo</text>
+  <text x="808" y="490" font-size="12" fill="#475569">Warehouse-Management-System</text>
+  <text x="808" y="514" font-size="11" fill="#7C3AED">github.com/riorizqi-dev?tab=repositories</text>
+</g>
+</svg>

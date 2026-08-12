@@ -1,237 +1,87 @@
+<!-- ===== THEME-AWARE HERO BANNER ===== -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/light.svg">
+  <img alt="Rio Rizqi Saputra" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/light.svg">
+</picture>
+
+<!-- ===== GITHUB STATS ===== -->
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:4F46E5,50:7C3AED,100:8B5CF6&text=Rio%20Rizqi%20Saputra&fontAlign=50&fontAlignY=40&fontSize=45&fontColor=ffffff" />
+<!-- Streak — full width -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=riorizqi-dev&hide_border=true&background=0A0E1A&stroke=818CF8&ring=A78BFA&fire=22C55E&currStreakLabel=818CF8&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=818CF8&card_width=1180" />
+  <img width="100%" src="https://streak-stats.demolab.com/?user=riorizqi-dev&hide_border=true&background=FFFFFF&stroke=4F46E5&ring=7C3AED&fire=059669&currStreakLabel=4F46E5&sideLabels=475569&currStreakNum=0F172A&sideNums=0F172A&dates=94A3B8&titleColor=4F46E5&card_width=1180" alt="Rio's streak" />
+</picture>
 
-# <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=700&lines=Website+Engineer;Full+Stack+Web+Developer;Software+Engineering+Student;Building+Real-World+Digital+Solutions" />
+<br/>
 
-**Website Engineer · Full Stack Web Developer · Software Engineering Student**
-
-<p>
-  <img src="https://img.shields.io/badge/SMKN%2017%20Jakarta%20Barat-RPL-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Graduation-2027-6D28D9?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Location-Jakarta%20Barat,%20Indonesia-4F46E5?style=for-the-badge" />
-</p>
-
-<p>
-  <a href="mailto:riorizqi918@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/riorizqi-dev">
-    <img src="https://img.shields.io/badge/GitHub-riorizqi--dev-4F46E5?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://linkedin.com/in/your-linkedin">
-    <img src="https://img.shields.io/badge/LinkedIn-Coming_Soon-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-</p>
+<!-- Stats + Top languages — side by side -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=riorizqi-dev&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=818CF8&icon_color=A78BFA&text_color=94A3B8&bg_color=0A0E1A&card_width=500" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=riorizqi-dev&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=4F46E5&icon_color=7C3AED&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="Rio's GitHub stats" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=riorizqi-dev&layout=compact&langs_count=8&hide_border=true&title_color=818CF8&text_color=94A3B8&bg_color=0A0E1A&card_width=500" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=riorizqi-dev&layout=compact&langs_count=8&hide_border=true&title_color=4F46E5&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="Top languages" />
+</picture>
 
 </div>
 
----
+<!-- ===== CONTRIBUTION SNAKE ===== -->
 
-# About Me
+<div align="center">
 
-Saya adalah **Website Engineer** dan mahasiswa **Software Engineering (RPL)** di SMKN 17 Jakarta Barat, Indonesia. Saya fokus membangun website modern, sistem manajemen bisnis, platform inventori, solusi restoran, dan aplikasi web custom untuk klien.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/output/snake-light.svg" />
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/output/snake-light.svg" />
+</picture>
 
-Saat ini saya memperluas keahlian di **Full Stack Development, Artificial Intelligence, Automation**, dan praktik terbaik software engineering — sambil mengerjakan proyek freelance dan solusi dunia nyata.
+</div>
 
-### Open To
+<!-- ===== END SNAKE ===== -->
 
-- 💼 Freelance Projects
-- 🎓 Internship Opportunities
-- 🤝 Open Source Collaboration
-- 🌐 Web Development Projects
-- 🤖 AI-Powered Applications
+<!-- ===== GITHUB TROPHIES ===== -->
 
----
+<div align="center">
 
-# 🛠 Tech Stack
+### 🏆 GitHub Trophies
 
-## Languages
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-trophies.vercel.app/?username=riorizqi-dev&theme=nord&no-frame=true&no-bg=true" />
+  <img src="https://github-trophies.vercel.app/?username=riorizqi-dev&theme=flat&no-frame=true" alt="GitHub Trophies" />
+</picture>
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,php,python,kotlin" />
+</div>
 
-## Frontend
+<!-- ===== FEATURED PROJECTS ===== -->
 
-<img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,react,nextjs" />
+<div align="center">
 
-## Backend & Database
+<img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/projects/projects.svg" alt="Projects" />
 
-<img src="https://skillicons.dev/icons?i=laravel,nodejs,php,mysql,supabase" />
+</div>
 
-## Tools & Development
+<!-- ===== SOCIAL BADGES ===== -->
+<br/>
+<div align="center">
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,dotnet,vercel" />
+<a href="mailto:riorizqi918@gmail.com">
+  <img src="https://img.shields.io/badge/Email-0F172A?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0F172A" alt="Email" />
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/riorizqi-dev">
+  <img src="https://img.shields.io/badge/GitHub-0F172A?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0F172A" alt="GitHub" />
+</a>
+&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/your-linkedin">
+  <img src="https://img.shields.io/badge/LinkedIn-0F172A?style=for-the-badge&logoColor=white&labelColor=0F172A&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyNSAweiIvPjwvc3ZnPg==" alt="LinkedIn" />
+</a>
+&nbsp;&nbsp;
+</div>
 
----
+<!-- ===== END SOCIAL BADGES ===== -->
 
-# 📌 Featured Projects
-
-## 🍛 KantinKu — Digital Canteen System
-
-**Sistem pemesanan kantin sekolah digital** — multi-role, stok real-time, komisi platform, pembayaran QRIS / e-wallet, notifikasi WhatsApp.
-
-- **Stack:** Next.js 14 · TypeScript · Supabase · Tailwind CSS · Midtrans
-- [▶ Buka Repository](https://github.com/riorizqi-dev/kantinku)
-
-## ⌚ VANTOR — Luxury Watch Landing Page
-
-**Cinematic landing page** untuk brand jam tangan mewah — GSAP ScrollTrigger, particles, magnetic CTA, smooth scroll.
-
-- **Stack:** Next.js 15 · React 19 · GSAP · Framer Motion · Tailwind CSS 4
-- [▶ Buka Repository](https://github.com/riorizqi-dev/vantor)
-
-## 📊 RFM Market — Trading Dashboard
-
-**Dashboard trading saham & crypto** bergaya exchange global — dark theme, HTML + Tailwind murni tanpa framework.
-
-- **Stack:** HTML · Tailwind CSS
-- [▶ Buka Repository](https://github.com/riorizqi-dev/rfm-market)
-
-## ✅ TaskTrack — Task Management (Android)
-
-**Aplikasi manajemen tugas harian** Android berbasis Kotlin & Gradle.
-
-- **Stack:** Kotlin · Android SDK · Gradle
-- [▶ Buka Repository](https://github.com/riorizqi-dev/TaskTrack)
-
-## 💼 Portfolio Website
-
-**Personal portfolio** interaktif — animasi Framer Motion, project showcase, contact form Supabase.
-
-- **Stack:** React 19 · TypeScript · Vite · Tailwind CSS 4
-- [▶ Buka Repository](https://github.com/riorizqi-dev/portfolio)
-
-## 🏆 The Killer — Dark Landing Page
-
-**Dark landing page** untuk jaringan kontrak premium fiktif — satu file HTML, tanpa framework.
-
-- **Stack:** HTML · CSS · JavaScript
-- [▶ Buka Repository](https://github.com/riorizqi-dev/the-killer)
-
-<details>
-<summary><b>Lihat projek lainnya</b></summary>
-
-| Project | Deskripsi | Stack |
-|---|---|---|
-| [portfolio-rio](https://github.com/riorizqi-dev/portfolio-rio) | Portfolio personal v2 | React 19 · Vite |
-| [GhostMode](https://github.com/riorizqi-dev/GhostMode) | Android app (foreground service) | Kotlin |
-| [belajar-react-dasar](https://github.com/riorizqi-dev/belajar-react-dasar) | Belajar React dari dasar | React · Vite |
-| [brightdor](https://github.com/riorizqi-dev/brightdor) | Projek web | — |
-| [Ryuuka-Store](https://github.com/riorizqi-dev/Ryuuka-Store) | Marketplace aplikasi premium | PHP |
-| [cafe-yo](https://github.com/riorizqi-dev/cafe-yo) | Manajemen restoran | Laravel |
-| [Warehouse-Management-System](https://github.com/riorizqi-dev/Warehouse-Management-System) | Sistem manajemen gudang | Laravel · MySQL |
-
-</details>
-
----
-
-# 💼 Experience
-
-## Freelance Website Developer
-
-**2024 — Present**
-
-- Developed custom websites for clients
-- Built inventory and warehouse systems
-- Created restaurant management solutions
-- Designed digital product marketplaces
-- Worked directly with clients on business requirements
-- Delivered responsive, mobile-friendly web applications
-
-**Skills:** `Laravel` `PHP` `Python` `JavaScript` `MySQL` `HTML` `CSS` `.NET MAUI`
-
----
-
-# 🎯 Achievements
-
-| Recognition | Details |
-|---|---|
-| Freelance Developer | Delivered multiple client projects |
-| Website Engineer | Built real-world business solutions |
-| Software Engineering Student | Active RPL student at SMKN 17 Jakarta Barat |
-| Continuous Learner | Exploring AI, Automation, Full Stack Development |
-
----
-
-# 🏅 Certifications
-
-### Currently Working Towards
-
-- [x] AWS Cloud Fundamentals
-- [x] Laravel Development
-- [x] AI & Prompt Engineering
-- [x] Software Engineering Certifications
-
----
-
-# 📊 GitHub Analytics
-
-<p align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=riorizqi-dev&show_icons=true&count_private=true&theme=tokyonight" />
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=riorizqi-dev&layout=compact&langs_count=8&theme=tokyonight" />
-
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=riorizqi-dev&theme=tokyonight" />
-</p>
-
----
-
-# 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=riorizqi-dev&theme=tokyonight&row=1&column=7" />
-</p>
-
----
-
-# 📈 Contribution Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=riorizqi-dev&theme=tokyo-night&bg_color=0d1117&hide_border=true" />
-</p>
-
----
-
-# 🧠 Current Focus
-
-```yaml
-learning:
-  - Artificial Intelligence
-  - Prompt Engineering
-  - Laravel Advanced Development
-  - Full Stack Engineering
-
-building:
-  - Business Management Systems
-  - AI-Powered Web Applications
-  - Custom Client Websites
-
-exploring:
-  - AI Agents
-  - RAG Systems
-  - Automation Workflows
-
-open_to:
-  - Freelance Projects
-  - Internships
-  - Open Source Collaboration
-```
-
----
-
-# 🤝 Connect With Me
-
-- 📧 Email: [riorizqi918@gmail.com](mailto:riorizqi918@gmail.com)
-- 🐙 GitHub: https://github.com/riorizqi-dev
-- 💼 LinkedIn: Coming Soon
-- 🌐 Portfolio: [portfolio-rio](https://github.com/riorizqi-dev/portfolio-rio)
-
----
-
-> *Building solutions, learning continuously, and growing one project at a time.*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:4F46E5,50:7C3AED,100:8B5CF6" />
+<!-- =================================== -->
