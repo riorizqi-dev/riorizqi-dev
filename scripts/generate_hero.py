@@ -3,7 +3,6 @@
 Avatar is rendered as a monochrome purple/cyan halftone dot-grid from a real photo.
 Pure python + Pillow for the avatar, hand-built SVG for the window.
 """
-import math
 import sys
 from PIL import Image
 
@@ -38,13 +37,14 @@ LINKS = {
     "facebook": None,
 }
 
+FONT = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
+
 
 def esc(s):
     return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def halftone_grid(img, cols=90, max_dots=1):
-    """Downsample to cols-wide grayscale grid. Returns (r,g,b,a,lum) per cell."""
+def halftone_grid(img, cols=88):
     w, h = img.size
     ratio = cols / w
     rows = max(1, round(h * ratio))
@@ -58,20 +58,19 @@ def halftone_grid(img, cols=90, max_dots=1):
             lum = (0.299 * r + 0.587 * g + 0.114 * b) / 255.0
             row.append((r, g, b, a, lum))
         grid.append(row)
-    return grid, cols, rows
+    return grid
 
 
 def avatar_svg(theme, x, y, size):
-    """Dot-matrix halftone avatar. Returns svg fragment positioned at (x,y)."""
     img = Image.open(AVATAR_SRC)
-    grid, cols, rows = halftone_grid(img, cols=88)
+    grid = halftone_grid(img, cols=88)
+    cols, rows = 88, len(grid)
     cell = size / cols
     parts = []
     for cy, row in enumerate(grid):
         for cx, (r, g, b, a, lum) in enumerate(row):
             if a < 60:
                 continue
-            # halftone: dot radius proportional to darkness, bigger = darker
             rad = cell * 0.42 * max(0.0, 1.0 - lum) ** 0.7 + 0.06 * cell
             if rad < 0.35:
                 continue
@@ -101,12 +100,12 @@ def avatar_svg(theme, x, y, size):
 def dots_line(x1, y, x2):
     return (
         f'<line x1="{x1}" y1="{y}" x2="{x2}" y2="{y}" '
-        'stroke="currentColor" stroke-width="1.4" stroke-linecap="round" '
+        'stroke="currentColor" stroke-width="1.6" stroke-linecap="round" '
         'stroke-dasharray="0.5 4.5"/>'
     )
 
 
-def row(label, value, y, label_color, value_color, label_x, value_x, dots_x1, dots_x2, font=13):
+def row(label, value, y, label_color, value_color, label_x, value_x, dots_x1, dots_x2, font=17):
     label = esc(label)
     value = esc(value)
     return (
@@ -129,22 +128,26 @@ def build(theme):
         RED = "#DC2626"; YEL = "#D97706"; DOT1 = "#0E7490"; DOT2 = "#6D28D9"
         CURS = "#0891B2"
 
-    W, TITLE_H, PAD = 1180, 38, 26
-    AV_SIZE = 330
-    AV_X, AV_Y = PAD, TITLE_H + PAD + 26
+    W, TITLE_H, PAD = 1180, 42, 28
+    AV_SIZE = 360
+    AV_X, AV_Y = PAD, TITLE_H + PAD + 30
     COL_GAP = 34
     RX = AV_X + AV_SIZE + COL_GAP
     RX2 = W - PAD
+
     label_x = RX
-    dots_x1 = RX + 118
-    dots_x2 = RX2 - 96
+    dots_x1 = RX + 150
+    dots_x2 = RX2 - 300
     value_x = RX2
 
-    # ---- measure right column height to size window ----
-    rows_h = 11 * 24  # system.info rows
-    crows_h = 6 * 21  # contact rows
-    body_h = max(AV_SIZE + 26 + 22, rows_h + 26 + 24 + crows_h)
-    body_h += 46  # footer
+    row_h = 29
+    rows_h = 11 * row_h
+    crow_h = 25
+    crows_h = 6 * crow_h
+
+    right_h = rows_h + 30 + crow_h + 8 + crows_h
+    left_h = 30 + AV_SIZE + 20
+    body_h = max(left_h, right_h) + 56
     H = TITLE_H + PAD + body_h + PAD
 
     s = []
@@ -153,37 +156,29 @@ def build(theme):
     a(f'<defs><linearGradient id="hd" x1="0" y1="0" x2="1" y2="0">'
       f'<stop offset="0" stop-color="{DOT2}"/><stop offset="1" stop-color="{DOT1}"/></linearGradient></defs>')
 
-    # window body
+    # window chrome
     a(f'<rect x="0" y="0" width="{W}" height="{H}" fill="{BG}"/>')
     a(f'<rect x="0" y="0" width="{W}" height="{TITLE_H}" fill="{TB}"/>')
     a(f'<line x1="0" y1="{TITLE_H}" x2="{W}" y2="{TITLE_H}" stroke="{BD}" stroke-width="1"/>')
-
-    # traffic dots
     for i, c in enumerate([RED, YEL, GRN]):
-        cx = 22 + i * 20
-        a(f'<circle cx="{cx}" cy="{TITLE_H/2}" r="6" fill="{c}"/>')
+        a(f'<circle cx="{24 + i * 22}" cy="{TITLE_H / 2}" r="7" fill="{c}"/>')
+    a(f'<text x="104" y="{TITLE_H / 2 + 6}" font-size="16" font-family="{FONT}" fill="{FNT}">rio@github.dev</text>')
 
-    # header path
-    path = f'rio@github.dev  -  <tspan fill="{CYN}">%</tspan>  ./profile.sh --live'
-    a(f'<text x="92" y="{TITLE_H/2 + 5}" font-size="13" font-family="{FONT}" fill="{FNT}">{path}</text>')
-
-    # LIVE indicator right, red blinking
-    a(f'<text x="{W-24}" y="{TITLE_H/2 + 5}" font-size="12" font-family="{FONT}" fill="{RED}" text-anchor="end">'
-      f'<tspan>LIVE</tspan></text>')
-    a(f'<circle cx="{W-64}" cy="{TITLE_H/2 - 1}" r="4.5" fill="{RED}">'
+    # LIVE indicator (red, blinking)
+    a(f'<text x="{W - 26}" y="{TITLE_H / 2 + 6}" font-size="14" font-family="{FONT}" fill="{RED}" text-anchor="end">LIVE</text>')
+    a(f'<circle cx="{W - 72}" cy="{TITLE_H / 2 - 1}" r="5.5" fill="{RED}">'
       f'<animate attributeName="opacity" values="1;0.15;1" dur="1.1s" repeatCount="indefinite"/></circle>')
 
     # column labels
-    a(f'<text x="{AV_X}" y="{TITLE_H + PAD}" font-size="11" font-family="{FONT}" fill="{FNT}" letter-spacing="2">VISUAL.MAP</text>')
-    a(f'<text x="{RX}" y="{TITLE_H + PAD}" font-size="11" font-family="{FONT}" fill="{PUR}" letter-spacing="2">SYSTEM.INFO</text>')
+    a(f'<text x="{AV_X}" y="{TITLE_H + PAD}" font-size="13" font-family="{FONT}" fill="{FNT}" letter-spacing="2">VISUAL.MAP</text>')
+    a(f'<text x="{RX}" y="{TITLE_H + PAD}" font-size="13" font-family="{FONT}" fill="{PUR}" letter-spacing="2">SYSTEM.INFO</text>')
 
     # avatar + frame
-    a(f'<rect x="{AV_X-8}" y="{AV_Y-8}" width="{AV_SIZE+16}" height="{AV_SIZE+16}" rx="10" fill="none" stroke="{BD}" stroke-width="1.5"/>')
+    a(f'<rect x="{AV_X - 10}" y="{AV_Y - 10}" width="{AV_SIZE + 20}" height="{AV_SIZE + 20}" rx="12" fill="none" stroke="{BD}" stroke-width="1.5"/>')
     a(avatar_svg(theme, AV_X, AV_Y, AV_SIZE))
-    a(f'<text x="{AV_X + AV_SIZE/2}" y="{AV_Y + AV_SIZE + 18}" font-size="11" font-family="{FONT}" fill="{FNT}" text-anchor="middle">pixel_map --halftone 88x88</text>')
 
     # SYSTEM.INFO rows
-    y = TITLE_H + PAD + 24
+    y = TITLE_H + PAD + 30
     rows = [
         ("Subject", DATA["subject"], TX),
         ("Role", DATA["role"], TX),
@@ -199,11 +194,11 @@ def build(theme):
     ]
     for label, value, vc in rows:
         a(row(label, value, y, PUR, vc, label_x, value_x, dots_x1, dots_x2))
-        y += 24
+        y += row_h
 
-    y += 12
-    a(f'<text x="{label_x}" y="{y}" font-size="11" font-family="{FONT}" fill="{PUR}" letter-spacing="2">CONTACT.GRID</text>')
-    y += 26
+    y += 22
+    a(f'<text x="{label_x}" y="{y}" font-size="13" font-family="{FONT}" fill="{PUR}" letter-spacing="2">CONTACT.GRID</text>')
+    y += 30
     contacts = [
         ("Grid.Mail", DATA["mail"], LINKS["mail"]),
         ("Grid.Portfolio", DATA["portfolio"], LINKS["portfolio"]),
@@ -212,27 +207,25 @@ def build(theme):
         ("Grid.GitHub", DATA["github"], LINKS["github"]),
         ("Grid.Facebook", DATA["facebook"], None),
     ]
+    c_dots_x2 = RX2 - 270
     for label, value, link in contacts:
         if link:
-            seg = f'<a href="{link}" style="text-decoration:none">{row(label, value, y, FNT, CYN, label_x, value_x, dots_x1, dots_x2, font=12)}</a>'
+            seg = f'<a href="{link}" style="text-decoration:none">{row(label, value, y, FNT, CYN, label_x, value_x, dots_x1, c_dots_x2, font=15)}</a>'
         else:
-            seg = row(label, value, y, FNT, FNT, label_x, value_x, dots_x1, dots_x2, font=12)
+            seg = row(label, value, y, FNT, FNT, label_x, value_x, dots_x1, c_dots_x2, font=15)
         a(seg)
-        y += 21
+        y += crow_h
 
     # footer with blinking cursor
-    fy = H - PAD - 6
-    a(f'<line x1="{PAD}" y1="{fy+6}" x2="{W-PAD}" y2="{fy+6}" stroke="{BD}" stroke-width="1"/>')
-    a(f'<text x="{PAD}" y="{fy}" font-size="13" font-family="{FONT}" fill="{FNT}">More about me &amp; projects below in README &#8595;</text>')
-    cw = 10
-    a(f'<rect x="{PAD+318}" y="{fy-13}" width="8" height="15" fill="{CURS}">'
+    fy = H - PAD - 8
+    a(f'<line x1="{PAD}" y1="{fy + 8}" x2="{W - PAD}" y2="{fy + 8}" stroke="{BD}" stroke-width="1"/>')
+    a(f'<text x="{PAD}" y="{fy}" font-size="16" font-family="{FONT}" fill="{FNT}">More about me &amp; projects below in README &#8595;</text>')
+    a(f'<rect x="{PAD + 380}" y="{fy - 16}" width="9" height="18" fill="{CURS}">'
       f'<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>')
 
     a("</svg>")
     return "\n".join(s)
 
-
-FONT = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
 
 if __name__ == "__main__":
     out = sys.argv[1] if len(sys.argv) > 1 else "hero-dark.svg"
