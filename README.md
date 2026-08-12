@@ -1,12 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:4F46E5,50:7C3AED,100:8B5CF6&text=Rio%20Rizqi%20Saputra&fontAlign=50&fontAlignY=40&fontSize=45&fontColor=ffffff"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:4F46E5,50:7C3AED,100:8B5CF6&text=Rio%20Rizqi%20Saputra&fontAlign=50&fontAlignY=40&fontSize=45&fontColor=ffffff" />
 
-# Rio Rizqi Saputra
+# <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=700&lines=Website+Engineer;Full+Stack+Web+Developer;Software+Engineering+Student;Building+Real-World+Digital+Solutions" />
 
-### Website Engineer | Software Engineering Student | Freelance Web Developer
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=700&lines=Website+Engineer;Full+Stack+Web+Developer;Software+Engineering+Student;Building+Real-World+Digital+Solutions"/>
+**Website Engineer · Full Stack Web Developer · Software Engineering Student**
 
 <p>
   <img src="https://img.shields.io/badge/SMKN%2017%20Jakarta%20Barat-RPL-blueviolet?style=for-the-badge" />
@@ -15,17 +13,15 @@
 </p>
 
 <p>
-<a href="mailto:riorizqi918@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact_Me-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://github.com/riorizqi-dev">
-<img src="https://img.shields.io/badge/GitHub-riorizqi--dev-4F46E5?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://linkedin.com/in/your-linkedin">
-<img src="https://img.shields.io/badge/LinkedIn-Coming_Soon-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+  <a href="mailto:riorizqi918@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://github.com/riorizqi-dev">
+    <img src="https://img.shields.io/badge/GitHub-riorizqi--dev-4F46E5?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://linkedin.com/in/your-linkedin">
+    <img src="https://img.shields.io/badge/LinkedIn-Coming_Soon-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
 </p>
 
 </div>
@@ -34,244 +30,173 @@
 
 # About Me
 
-I am a Website Engineer and Software Engineering (RPL) student at SMKN 17 Jakarta Barat, Indonesia.
+Saya adalah **Website Engineer** dan mahasiswa **Software Engineering (RPL)** di SMKN 17 Jakarta Barat, Indonesia. Saya fokus membangun website modern, sistem manajemen bisnis, platform inventori, solusi restoran, dan aplikasi web custom untuk klien.
 
-I specialize in developing modern websites, business management systems, inventory platforms, restaurant solutions, and custom web applications for clients.
-
-Currently, I am expanding my expertise in Full Stack Development, Artificial Intelligence, Automation, and Software Engineering best practices while actively working on freelance projects and real-world solutions.
+Saat ini saya memperluas keahlian di **Full Stack Development, Artificial Intelligence, Automation**, dan praktik terbaik software engineering — sambil mengerjakan proyek freelance dan solusi dunia nyata.
 
 ### Open To
 
-* Freelance Projects
-* Internship Opportunities
-* Open Source Collaboration
-* Web Development Projects
-* AI-Powered Applications
+- 💼 Freelance Projects
+- 🎓 Internship Opportunities
+- 🤝 Open Source Collaboration
+- 🌐 Web Development Projects
+- 🤖 AI-Powered Applications
 
 ---
 
-# Tech Stack
+# 🛠 Tech Stack
 
 ## Languages
 
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,js,php,python" />
-</p>
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,php,python,kotlin" />
 
 ## Frontend
 
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind" />
-</p>
+<img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,react,nextjs" />
 
 ## Backend & Database
 
-<p>
-<img src="https://skillicons.dev/icons?i=laravel,php,mysql" />
-</p>
+<img src="https://skillicons.dev/icons?i=laravel,nodejs,php,mysql,supabase" />
 
 ## Tools & Development
 
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,dotnet" />
-</p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,dotnet,vercel" />
 
 ---
 
-# AI / ML Interests
+# 📌 Featured Projects
 
-| Domain             | Level     | Details                                  |
-| ------------------ | --------- | ---------------------------------------- |
-| Prompt Engineering | Learning  | Building effective prompts and workflows |
-| AI Automation      | Learning  | Exploring automation using AI tools      |
-| LLM Applications   | Learning  | Integrating AI into web applications     |
-| AI Agents          | Exploring | Multi-step intelligent workflows         |
-| RAG Systems        | Exploring | Retrieval-Augmented Generation concepts  |
+## 🍛 KantinKu — Digital Canteen System
 
----
+**Sistem pemesanan kantin sekolah digital** — multi-role, stok real-time, komisi platform, pembayaran QRIS / e-wallet, notifikasi WhatsApp.
 
-# Featured Projects
+- **Stack:** Next.js 14 · TypeScript · Supabase · Tailwind CSS · Midtrans
+- [▶ Buka Repository](https://github.com/riorizqi-dev/kantinku)
 
-<details>
-<summary><b>Warehouse Management System</b></summary>
+## ⌚ VANTOR — Luxury Watch Landing Page
 
-### Overview
+**Cinematic landing page** untuk brand jam tangan mewah — GSAP ScrollTrigger, particles, magnetic CTA, smooth scroll.
 
-A web-based inventory and warehouse management system designed to track stock movement, inventory levels, and operational workflows.
+- **Stack:** Next.js 15 · React 19 · GSAP · Framer Motion · Tailwind CSS 4
+- [▶ Buka Repository](https://github.com/riorizqi-dev/vantor)
 
-| Category    | Details                         |
-| ----------- | ------------------------------- |
-| Stack       | Laravel, MySQL, PHP             |
-| Scale       | Small to Medium Business        |
-| Performance | Optimized Database Queries      |
-| Security    | Authentication & Access Control |
-| Impact      | Improved Inventory Management   |
-| Repository  | Coming Soon                     |
+## 📊 RFM Market — Trading Dashboard
 
-</details>
+**Dashboard trading saham & crypto** bergaya exchange global — dark theme, HTML + Tailwind murni tanpa framework.
 
-<details>
-<summary><b>Restaurant Management Website</b></summary>
+- **Stack:** HTML · Tailwind CSS
+- [▶ Buka Repository](https://github.com/riorizqi-dev/rfm-market)
 
-### Overview
+## ✅ TaskTrack — Task Management (Android)
 
-A restaurant platform featuring menu management, reservation systems, and customer-focused workflows.
+**Aplikasi manajemen tugas harian** Android berbasis Kotlin & Gradle.
 
-| Category    | Details                      |
-| ----------- | ---------------------------- |
-| Stack       | Laravel, MySQL               |
-| Scale       | Restaurant Business          |
-| Performance | Responsive UI                |
-| Security    | Role-Based Access            |
-| Impact      | Improved Customer Experience |
-| Repository  | Coming Soon                  |
+- **Stack:** Kotlin · Android SDK · Gradle
+- [▶ Buka Repository](https://github.com/riorizqi-dev/TaskTrack)
 
-</details>
+## 💼 Portfolio Website
+
+**Personal portfolio** interaktif — animasi Framer Motion, project showcase, contact form Supabase.
+
+- **Stack:** React 19 · TypeScript · Vite · Tailwind CSS 4
+- [▶ Buka Repository](https://github.com/riorizqi-dev/portfolio)
+
+## 🏆 The Killer — Dark Landing Page
+
+**Dark landing page** untuk jaringan kontrak premium fiktif — satu file HTML, tanpa framework.
+
+- **Stack:** HTML · CSS · JavaScript
+- [▶ Buka Repository](https://github.com/riorizqi-dev/the-killer)
 
 <details>
-<summary><b>Premium Apps Marketplace</b></summary>
+<summary><b>Lihat projek lainnya</b></summary>
 
-### Overview
-
-A digital marketplace for premium applications and digital products.
-
-| Category    | Details                      |
-| ----------- | ---------------------------- |
-| Stack       | PHP, MySQL, JavaScript       |
-| Scale       | Online Store                 |
-| Performance | Fast Product Browsing        |
-| Security    | Authentication               |
-| Impact      | Digital Product Distribution |
-| Repository  | Coming Soon                  |
-
-</details>
-
-<details>
-<summary><b>Birthday Website Project</b></summary>
-
-### Overview
-
-A personalized and interactive website built as a memorable digital experience.
-
-| Category    | Details                  |
-| ----------- | ------------------------ |
-| Stack       | HTML, CSS, JavaScript    |
-| Scale       | Personal Project         |
-| Performance | Lightweight              |
-| Security    | Frontend Project         |
-| Impact      | Creative User Experience |
-| Repository  | Coming Soon              |
-
-</details>
-
-<details>
-<summary><b>Checkout Gift Generator App</b></summary>
-
-### Overview
-
-A cross-platform application developed using .NET MAUI.
-
-| Category    | Details                |
-| ----------- | ---------------------- |
-| Stack       | .NET MAUI              |
-| Scale       | Mobile Application     |
-| Performance | Cross Platform         |
-| Security    | User Input Validation  |
-| Impact      | Practical Utility Tool |
-| Repository  | Coming Soon            |
+| Project | Deskripsi | Stack |
+|---|---|---|
+| [portfolio-rio](https://github.com/riorizqi-dev/portfolio-rio) | Portfolio personal v2 | React 19 · Vite |
+| [GhostMode](https://github.com/riorizqi-dev/GhostMode) | Android app (foreground service) | Kotlin |
+| [belajar-react-dasar](https://github.com/riorizqi-dev/belajar-react-dasar) | Belajar React dari dasar | React · Vite |
+| [brightdor](https://github.com/riorizqi-dev/brightdor) | Projek web | — |
+| [Ryuuka-Store](https://github.com/riorizqi-dev/Ryuuka-Store) | Marketplace aplikasi premium | PHP |
+| [cafe-yo](https://github.com/riorizqi-dev/cafe-yo) | Manajemen restoran | Laravel |
+| [Warehouse-Management-System](https://github.com/riorizqi-dev/Warehouse-Management-System) | Sistem manajemen gudang | Laravel · MySQL |
 
 </details>
 
 ---
 
-# Experience
+# 💼 Experience
 
 ## Freelance Website Developer
 
-**2024 – Present**
+**2024 — Present**
 
-* Developed custom websites for clients.
-* Built inventory and warehouse systems.
-* Created restaurant management solutions.
-* Designed digital product marketplaces.
-* Worked directly with clients to understand business requirements.
-* Delivered responsive and mobile-friendly web applications.
+- Developed custom websites for clients
+- Built inventory and warehouse systems
+- Created restaurant management solutions
+- Designed digital product marketplaces
+- Worked directly with clients on business requirements
+- Delivered responsive, mobile-friendly web applications
 
-**Skills**
-
-`Laravel` `PHP` `Python` `JavaScript` `MySQL` `HTML` `CSS` `.NET MAUI`
+**Skills:** `Laravel` `PHP` `Python` `JavaScript` `MySQL` `HTML` `CSS` `.NET MAUI`
 
 ---
 
-# Achievements
+# 🎯 Achievements
 
-| Recognition                  | Details                                              |
-| ---------------------------- | ---------------------------------------------------- |
-| Freelance Developer          | Delivered multiple client projects                   |
-| Website Engineer             | Built real-world business solutions                  |
-| Software Engineering Student | Active RPL student at SMKN 17 Jakarta Barat          |
-| Continuous Learner           | Exploring AI, Automation, and Full Stack Development |
+| Recognition | Details |
+|---|---|
+| Freelance Developer | Delivered multiple client projects |
+| Website Engineer | Built real-world business solutions |
+| Software Engineering Student | Active RPL student at SMKN 17 Jakarta Barat |
+| Continuous Learner | Exploring AI, Automation, Full Stack Development |
 
 ---
 
-# Certifications
+# 🏅 Certifications
 
 ### Currently Working Towards
 
-* AWS Cloud Fundamentals
-* Laravel Development
-* AI & Prompt Engineering
-* Software Engineering Certifications
+- [x] AWS Cloud Fundamentals
+- [x] Laravel Development
+- [x] AI & Prompt Engineering
+- [x] Software Engineering Certifications
 
 ---
 
-# Coding Profiles
-
-<p>
-<img src="https://img.shields.io/badge/LeetCode-Coming_Soon-orange?style=for-the-badge&logo=leetcode"/>
-<img src="https://img.shields.io/badge/HackerRank-Coming_Soon-green?style=for-the-badge&logo=hackerrank"/>
-<img src="https://img.shields.io/badge/CodeChef-Coming_Soon-brown?style=for-the-badge"/>
-</p>
-
----
-
-# GitHub Analytics
+# 📊 GitHub Analytics
 
 <p align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=riorizqi-dev&show_icons=true&theme=tokyonight"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=riorizqi-dev&show_icons=true&count_private=true&theme=tokyonight" />
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=riorizqi-dev&layout=compact&theme=tokyonight"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=riorizqi-dev&layout=compact&langs_count=8&theme=tokyonight" />
 
 </p>
 
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=riorizqi-dev&theme=tokyonight"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=riorizqi-dev&theme=tokyonight" />
 </p>
 
 ---
 
-# GitHub Trophies
+# 🏆 GitHub Trophies
 
 <p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=riorizqi-dev&theme=tokyonight&row=1&column=7"/>
-
+  <img src="https://github-profile-trophy.vercel.app/?username=riorizqi-dev&theme=tokyonight&row=1&column=7" />
 </p>
 
 ---
 
-# Contribution Activity
+# 📈 Contribution Activity
 
 <p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=riorizqi-dev&theme=tokyo-night"/>
-
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=riorizqi-dev&theme=tokyo-night&bg_color=0d1117&hide_border=true" />
 </p>
 
 ---
 
-# Current Focus
+# 🧠 Current Focus
 
 ```yaml
 learning:
@@ -298,15 +223,15 @@ open_to:
 
 ---
 
-# Connect With Me
+# 🤝 Connect With Me
 
-* Email: [riorizqi918@gmail.com](mailto:riorizqi918@gmail.com)
-* GitHub: https://github.com/riorizqi-dev
-* LinkedIn: Coming Soon
-* Portfolio: Coming Soon
+- 📧 Email: [riorizqi918@gmail.com](mailto:riorizqi918@gmail.com)
+- 🐙 GitHub: https://github.com/riorizqi-dev
+- 💼 LinkedIn: Coming Soon
+- 🌐 Portfolio: [portfolio-rio](https://github.com/riorizqi-dev/portfolio-rio)
 
 ---
 
-> Building solutions, learning continuously, and growing one project at a time.
+> *Building solutions, learning continuously, and growing one project at a time.*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:4F46E5,50:7C3AED,100:8B5CF6"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:4F46E5,50:7C3AED,100:8B5CF6" />
