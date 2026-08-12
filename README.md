@@ -29,9 +29,24 @@
 
 </div>
 
+<!-- ===== PIXEL PROFILE ===== -->
+
+<div align="center">
+
+### 👾 Pixel Profile
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=riorizqi-dev&theme=journey&hide=rank" />
+  <img src="https://pixel-profile.vercel.app/api/github-stats?username=riorizqi-dev&theme=fuji&hide=rank" alt="Pixel Profile" />
+</picture>
+
+</div>
+
 <!-- ===== CONTRIBUTION SNAKE ===== -->
 
 <div align="center">
+
+### 🐍 Contribution Graph
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/output/snake-dark.svg" />
@@ -60,9 +75,134 @@
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/projects/projects.svg" alt="Projects" />
+### 📌 Featured Projects
+
+<img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/projects.svg" alt="Projects" />
 
 </div>
+
+---
+
+# 🧑‍💻 About Me
+
+Saya adalah **Website Engineer** dan mahasiswa **Software Engineering (RPL)** di SMKN 17 Jakarta Barat, Indonesia. Saya fokus membangun website modern, sistem manajemen bisnis, platform inventori, solusi restoran, dan aplikasi web custom untuk klien.
+
+Saat ini saya memperluas keahlian di **Full Stack Development, Artificial Intelligence, Automation**, dan praktik terbaik software engineering — sambil mengerjakan proyek freelance dan solusi dunia nyata.
+
+### Open To
+
+* 💼 Freelance Projects
+* 🎓 Internship Opportunities
+* 🤝 Open Source Collaboration
+* 🌐 Web Development Projects
+* 🤖 AI-Powered Applications
+
+---
+
+# 🛠 Tech Stack
+
+## Languages
+
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,php,python,kotlin" />
+
+## Frontend
+
+<img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,react,nextjs" />
+
+## Backend & Database
+
+<img src="https://skillicons.dev/icons?i=laravel,nodejs,php,mysql,supabase" />
+
+## Tools & Development
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,dotnet,vercel" />
+
+---
+
+# 🤖 AI / ML Interests
+
+| Domain             | Level     | Details                                     |
+| ------------------ | --------- | ------------------------------------------- |
+| Prompt Engineering | Learning  | Building effective prompts and workflows     |
+| AI Automation      | Learning  | Exploring automation using AI tools         |
+| LLM Applications   | Learning  | Integrating AI into web applications        |
+| AI Agents          | Exploring | Multi-step intelligent workflows            |
+| RAG Systems        | Exploring | Retrieval-Augmented Generation concepts     |
+
+---
+
+# 💼 Experience
+
+## Freelance Website Developer
+
+**2024 — Present**
+
+* Developed custom websites for clients
+* Built inventory and warehouse systems
+* Created restaurant management solutions
+* Designed digital product marketplaces
+* Worked directly with clients on business requirements
+* Delivered responsive, mobile-friendly web applications
+
+**Skills:** `Laravel` `PHP` `Python` `JavaScript` `MySQL` `HTML` `CSS` `.NET MAUI`
+
+---
+
+# 🎯 Achievements
+
+| Recognition                  | Details                                     |
+| ---------------------------- | ------------------------------------------- |
+| Freelance Developer          | Delivered multiple client projects          |
+| Website Engineer             | Built real-world business solutions         |
+| Software Engineering Student | Active RPL student at SMKN 17 Jakarta Barat  |
+| Continuous Learner           | Exploring AI, Automation, Full Stack Dev    |
+
+---
+
+# 🏅 Certifications
+
+### Currently Working Towards
+
+* AWS Cloud Fundamentals
+* Laravel Development
+* AI & Prompt Engineering
+* Software Engineering Certifications
+
+---
+
+# 🧠 Current Focus
+
+```yaml
+learning:
+  - Artificial Intelligence
+  - Prompt Engineering
+  - Laravel Advanced Development
+  - Full Stack Engineering
+
+building:
+  - Business Management Systems
+  - AI-Powered Web Applications
+  - Custom Client Websites
+
+exploring:
+  - AI Agents
+  - RAG Systems
+  - Automation Workflows
+
+open_to:
+  - Freelance Projects
+  - Internships
+  - Open Source Collaboration
+```
+
+---
+
+# 🤝 Connect With Me
+
+* 📧 Email: [riorizqi918@gmail.com](mailto:riorizqi918@gmail.com)
+* 🐙 GitHub: https://github.com/riorizqi-dev
+* 💼 LinkedIn: Coming Soon
+* 🌐 Portfolio: https://github.com/riorizqi-dev/portfolio-rio
 
 <!-- ===== SOCIAL BADGES ===== -->
 <br/>
