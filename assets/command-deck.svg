@@ -1,0 +1,26 @@
+<svg width="1200" height="230" viewBox="0 0 1200 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#818CF8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="230" rx="18" fill="url(#bg)"/>
+  <path d="M0 188H1200M0 42H1200M76 0V230M1124 0V230" stroke="#334155" stroke-opacity=".45"/>
+  <path d="M0 181C185 166 242 207 406 182C582 155 656 197 813 171C963 146 1054 179 1200 157" stroke="url(#line)" stroke-width="2"/>
+  <circle cx="975" cy="101" r="62" stroke="#22D3EE" stroke-opacity=".18" stroke-width="1" stroke-dasharray="4 8"/>
+  <circle cx="975" cy="101" r="38" stroke="#818CF8" stroke-opacity=".24"/>
+  <circle cx="975" cy="101" r="5" fill="#22D3EE" filter="url(#glow)"/>
+  <path d="M935 101H1015M975 61V141" stroke="#22D3EE" stroke-opacity=".25"/>
+  <text x="76" y="78" fill="#64748B" font-family="monospace" font-size="13" letter-spacing="3">CREATIVE DEVELOPER / RIO RIZQI SAPUTRA</text>
+  <text x="76" y="128" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" letter-spacing="-1">DIGITAL PRODUCTS, BUILT WITH INTENT.</text>
+  <text x="77" y="158" fill="#94A3B8" font-family="monospace" font-size="14">interface systems  /  motion  /  full-stack experiments</text>
+  <g font-family="monospace" font-size="11" fill="#22D3EE"><text x="76" y="207">[01] ONLINE</text><text x="202" y="207">[06] PROJECTS</text><text x="341" y="207">[∞] ITERATING</text></g>
+  <g fill="#818CF8"><circle cx="1125" cy="28" r="2"/><circle cx="1098" cy="195" r="2"/><circle cx="44" cy="25" r="2"/></g>
+</svg>

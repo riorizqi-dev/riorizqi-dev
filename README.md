@@ -7,6 +7,21 @@
 
 <br/>
 
+<div align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/command-deck.svg" alt="Rio Rizqi Saputra creative developer command deck" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/orbital-flight.svg" alt="A small spacecraft flying through a project orbit" />
+</div>
+
+<br/>
+
+<h2>Selected Project Orbit</h2>
+<p>Six interfaces and systems currently in the flight path.</p>
+
 <!-- ================================================================ -->
 <!-- PROJECTS : HTML cards (clickable) with inline SVG donuts        -->
 <!-- ================================================================ -->
@@ -254,6 +269,10 @@
 <!-- ===== SOCIAL BADGES ===== -->
 <br/>
 <div align="center">
+
+<img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/social-dock.svg" alt="Open channels: email, LinkedIn, Instagram, and GitHub" />
+
+<br/>
 
 <a href="mailto:riorizqi918@gmail.com">
   <img src="https://img.shields.io/badge/Email-10B981?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B0F1A" alt="Email" />
