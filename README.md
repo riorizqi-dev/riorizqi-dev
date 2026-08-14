@@ -6,6 +6,12 @@
 <br/>
 
 <div align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/orbital-flight.svg" alt="Animated spacecraft flying across the project orbit" />
+</div>
+
+<br/>
+
+<div align="center">
   <img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/arsenal-panel.svg" alt="Rio Rizqi technology arsenal" />
 </div>
 
@@ -15,13 +21,17 @@
   <img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/projects-panel.svg" alt="Rio Rizqi selected projects" />
 </div>
 
+<div align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/project-links.svg" alt="Selected project links" />
+</div>
+
 <p align="center">
-  <a href="https://github.com/riorizqi-dev/kantinku">KANTINKU</a> ·
-  <a href="https://github.com/riorizqi-dev/vantor">VANTOR</a> ·
-  <a href="https://github.com/riorizqi-dev/cafe-yo">CAFE-YO</a> ·
-  <a href="https://github.com/riorizqi-dev/rfm-market">RFM MARKET</a> ·
-  <a href="https://github.com/riorizqi-dev/the-killer">THE-KILLER</a> ·
-  <a href="https://github.com/riorizqi-dev/portfolio-rio">PORTFOLIO-RIO</a>
+  <a href="https://github.com/riorizqi-dev/kantinku"><img src="https://img.shields.io/badge/01_KANTINKU-0B1220?style=for-the-badge&logo=github&logoColor=22D3EE&labelColor=0B1220" alt="Open Kantinku" /></a>
+  <a href="https://github.com/riorizqi-dev/vantor"><img src="https://img.shields.io/badge/02_VANTOR-0B1220?style=for-the-badge&logo=github&logoColor=22D3EE&labelColor=0B1220" alt="Open Vantor" /></a>
+  <a href="https://github.com/riorizqi-dev/cafe-yo"><img src="https://img.shields.io/badge/03_CAFE--YO-0B1220?style=for-the-badge&logo=github&logoColor=22D3EE&labelColor=0B1220" alt="Open Cafe Yo" /></a><br/>
+  <a href="https://github.com/riorizqi-dev/rfm-market"><img src="https://img.shields.io/badge/04_RFM_MARKET-0B1220?style=for-the-badge&logo=github&logoColor=22D3EE&labelColor=0B1220" alt="Open RFM Market" /></a>
+  <a href="https://github.com/riorizqi-dev/the-killer"><img src="https://img.shields.io/badge/05_THE--KILLER-0B1220?style=for-the-badge&logo=github&logoColor=22D3EE&labelColor=0B1220" alt="Open The Killer" /></a>
+  <a href="https://github.com/riorizqi-dev/portfolio-rio"><img src="https://img.shields.io/badge/06_PORTFOLIO--RIO-0B1220?style=for-the-badge&logo=github&logoColor=22D3EE&labelColor=0B1220" alt="Open Portfolio Rio" /></a>
 </p>
 
 <br/>
@@ -30,12 +40,16 @@
   <img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/channels-panel.svg" alt="Rio Rizqi open channels" />
 </div>
 
+<div align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/channel-links.svg" alt="Direct social uplinks" />
+</div>
+
 <p align="center">
-  <a href="mailto:riorizqi918@gmail.com">EMAIL</a> ·
-  <a href="https://www.linkedin.com/in/rio-rizqi-saputra-a86441417">LINKEDIN</a> ·
-  <a href="https://www.instagram.com/riio_gorioio">INSTAGRAM</a> ·
-  <a href="https://github.com/riorizqi-dev">GITHUB</a> ·
-  <a href="https://portfolio-rio-green.vercel.app/">PORTFOLIO</a>
+  <a href="mailto:riorizqi918@gmail.com"><img src="https://img.shields.io/badge/EMAIL-21100A?style=for-the-badge&logo=gmail&logoColor=F59E0B&labelColor=21100A" alt="Email Rio" /></a>
+  <a href="https://www.linkedin.com/in/rio-rizqi-saputra-a86441417"><img src="https://img.shields.io/badge/LINKEDIN-21100A?style=for-the-badge&logo=linkedin&logoColor=F59E0B&labelColor=21100A" alt="Rio on LinkedIn" /></a>
+  <a href="https://www.instagram.com/riio_gorioio"><img src="https://img.shields.io/badge/INSTAGRAM-21100A?style=for-the-badge&logo=instagram&logoColor=F59E0B&labelColor=21100A" alt="Rio on Instagram" /></a>
+  <a href="https://github.com/riorizqi-dev"><img src="https://img.shields.io/badge/GITHUB-21100A?style=for-the-badge&logo=github&logoColor=F59E0B&labelColor=21100A" alt="Rio on GitHub" /></a>
+  <a href="https://portfolio-rio-green.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-21100A?style=for-the-badge&logo=vercel&logoColor=F59E0B&labelColor=21100A" alt="Rio portfolio" /></a>
 </p>
 
 <br/>
