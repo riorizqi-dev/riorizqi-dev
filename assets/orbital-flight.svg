@@ -3,8 +3,8 @@
   <rect width="1200" height="190" rx="16" fill="url(#space)"/>
   <g stroke="#1E293B" stroke-width="1"><path d="M0 48H1200M0 95H1200M0 142H1200M96 0V190M288 0V190M480 0V190M672 0V190M864 0V190M1056 0V190"/></g>
   <g fill="#94A3B8"><circle cx="118" cy="25" r="1.5"/><circle cx="253" cy="137" r="1"/><circle cx="397" cy="34" r="1.5"/><circle cx="577" cy="152" r="1"/><circle cx="770" cy="23" r="1"/><circle cx="1034" cy="130" r="1.5"/><circle cx="1138" cy="42" r="1"/></g>
-  <path d="M80 151C283 31 495 176 697 80C843 11 965 44 1120 77" stroke="#334155" stroke-width="2" stroke-dasharray="5 8"/>
-  <g transform="translate(690 77)" filter="url(#shipGlow)"><path d="M-28 4L20 -6L34 0L20 6L-28 4Z" fill="#22D3EE"/><path d="M-10 3L-26 18L-2 8L12 5L-10 3Z" fill="#818CF8"/><path d="M-10 -3L-26 -18L-2 -8L12 -5L-10 -3Z" fill="#818CF8"/><path d="M-30 2L-48 0L-30 -2" stroke="#22D3EE" stroke-width="3"/><circle cx="19" cy="0" r="2.5" fill="#F8FAFC"/><path d="M34 0L88 -23M34 0L98 0M34 0L88 23" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" opacity=".9"/></g>
+  <path id="flightPath" d="M80 151C283 31 495 176 697 80C843 11 965 44 1120 77" stroke="#334155" stroke-width="2" stroke-dasharray="5 8"/>
+  <g filter="url(#shipGlow)"><path d="M-28 4L20 -6L34 0L20 6L-28 4Z" fill="#22D3EE"/><path d="M-10 3L-26 18L-2 8L12 5L-10 3Z" fill="#818CF8"/><path d="M-10 -3L-26 -18L-2 -8L12 -5L-10 -3Z" fill="#818CF8"/><path d="M-30 2L-48 0L-30 -2" stroke="#22D3EE" stroke-width="3"/><circle cx="19" cy="0" r="2.5" fill="#F8FAFC"/><path d="M34 0L88 -23M34 0L98 0M34 0L88 23" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" opacity=".9"/><animateMotion dur="9s" repeatCount="indefinite" rotate="auto"><mpath href="#flightPath"/></animateMotion></g>
   <text x="52" y="45" fill="#F8FAFC" font-family="monospace" font-size="13" letter-spacing="2">PROJECT ORBIT</text><text x="52" y="70" fill="#64748B" font-family="monospace" font-size="11">selected builds crossing the wire</text>
   <text x="1014" y="160" fill="#22D3EE" font-family="monospace" font-size="11">NEXT STOP: SHIP</text>
 </svg>

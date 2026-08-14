@@ -26,16 +26,16 @@
 <!-- PROJECTS : HTML cards (clickable) with inline SVG donuts        -->
 <!-- ================================================================ -->
 
-<table style="width:100%;border-collapse:separate;border-spacing:14px 14px">
+<table style="width:100%;border-collapse:separate;border-spacing:14px 14px;table-layout:fixed">
 
 <!-- ROW 1 -->
 <tr>
 <td style="width:50%;vertical-align:top;padding:0">
 <a href="https://github.com/riorizqi-dev/kantinku" style="text-decoration:none">
-<table style="width:100%;background:#0F172A;border:1px solid #1E293B;border-radius:14px;border-collapse:separate;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+<table style="width:100%;height:330px;background:#0F172A;border:1px solid #1E293B;border-radius:14px;border-collapse:separate;table-layout:fixed;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
 <tr><td style="padding:16px 18px">
 <div style="font-size:13px;color:#64748B;margin-bottom:12px">riorizqi-dev/kantinku</div>
-<table style="width:100%;border-collapse:collapse">
+<table style="width:100%;height:72px;border-collapse:collapse;table-layout:fixed">
 <tr>
 <td style="width:44px;vertical-align:top"><img src="https://cdn.simpleicons.org/nextdotjs/22D3EE" width="38" height="38" alt=""/></td>
 <td style="vertical-align:top">
@@ -68,10 +68,10 @@
 
 <td style="width:50%;vertical-align:top;padding:0">
 <a href="https://github.com/riorizqi-dev/vantor" style="text-decoration:none">
-<table style="width:100%;background:#0F172A;border:1px solid #1E293B;border-radius:14px;border-collapse:separate;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+<table style="width:100%;height:330px;background:#0F172A;border:1px solid #1E293B;border-radius:14px;border-collapse:separate;table-layout:fixed;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
 <tr><td style="padding:16px 18px">
 <div style="font-size:13px;color:#64748B;margin-bottom:12px">riorizqi-dev/vantor</div>
-<table style="width:100%;border-collapse:collapse">
+<table style="width:100%;height:72px;border-collapse:collapse;table-layout:fixed">
 <tr>
 <td style="width:44px;vertical-align:top"><img src="https://cdn.simpleicons.org/nextdotjs/22D3EE" width="38" height="38" alt=""/></td>
 <td style="vertical-align:top">
@@ -105,10 +105,10 @@
 <tr>
 <td style="width:50%;vertical-align:top;padding:0">
 <a href="https://github.com/riorizqi-dev/cafe-yo" style="text-decoration:none">
-<table style="width:100%;background:#0F172A;border:1px solid #1E293B;border-radius:14px;border-collapse:separate;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+<table style="width:100%;height:330px;background:#0F172A;border:1px solid #1E293B;border-radius:14px;border-collapse:separate;table-layout:fixed;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
 <tr><td style="padding:16px 18px">
 <div style="font-size:13px;color:#64748B;margin-bottom:12px">riorizqi-dev/cafe-yo</div>
-<table style="width:100%;border-collapse:collapse">
+<table style="width:100%;height:72px;border-collapse:collapse;table-layout:fixed">
 <tr>
 <td style="width:44px;vertical-align:top"><img src="https://cdn.simpleicons.org/dotnet/178600" width="38" height="38" alt=""/></td>
 <td style="vertical-align:top">
@@ -141,10 +141,10 @@
 
 <td style="width:50%;vertical-align:top;padding:0">
 <a href="https://github.com/riorizqi-dev/rfm-market" style="text-decoration:none">
-<table style="width:100%;background:#0F172A;border:1px solid #1E293B;border-radius:14px;border-collapse:separate;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+<table style="width:100%;height:330px;background:#0F172A;border:1px solid #1E293B;border-radius:14px;border-collapse:separate;table-layout:fixed;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
 <tr><td style="padding:16px 18px">
 <div style="font-size:13px;color:#64748B;margin-bottom:12px">riorizqi-dev/rfm-market</div>
-<table style="width:100%;border-collapse:collapse">
+<table style="width:100%;height:72px;border-collapse:collapse;table-layout:fixed">
 <tr>
 <td style="width:44px;vertical-align:top"><img src="https://cdn.simpleicons.org/html5/E34C26" width="38" height="38" alt=""/></td>
 <td style="vertical-align:top">
@@ -175,10 +175,10 @@
 <tr>
 <td style="width:50%;vertical-align:top;padding:0">
 <a href="https://github.com/riorizqi-dev/the-killer" style="text-decoration:none">
-<table style="width:100%;background:#0F172A;border:1px solid #1E293B;border-radius:14px;border-collapse:separate;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+<table style="width:100%;height:330px;background:#0F172A;border:1px solid #1E293B;border-radius:14px;border-collapse:separate;table-layout:fixed;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
 <tr><td style="padding:16px 18px">
 <div style="font-size:13px;color:#64748B;margin-bottom:12px">riorizqi-dev/the-killer</div>
-<table style="width:100%;border-collapse:collapse">
+<table style="width:100%;height:72px;border-collapse:collapse;table-layout:fixed">
 <tr>
 <td style="width:44px;vertical-align:top"><img src="https://cdn.simpleicons.org/html5/E34C26" width="38" height="38" alt=""/></td>
 <td style="vertical-align:top">
@@ -209,10 +209,10 @@
 
 <td style="width:50%;vertical-align:top;padding:0">
 <a href="https://github.com/riorizqi-dev/portfolio-rio" style="text-decoration:none">
-<table style="width:100%;background:#0F172A;border:1px solid #1E293B;border-radius:14px;border-collapse:separate;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+<table style="width:100%;height:330px;background:#0F172A;border:1px solid #1E293B;border-radius:14px;border-collapse:separate;table-layout:fixed;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
 <tr><td style="padding:16px 18px">
 <div style="font-size:13px;color:#64748B;margin-bottom:12px">riorizqi-dev/portfolio-rio</div>
-<table style="width:100%;border-collapse:collapse">
+<table style="width:100%;height:72px;border-collapse:collapse;table-layout:fixed">
 <tr>
 <td style="width:44px;vertical-align:top"><img src="https://cdn.simpleicons.org/react/22D3EE" width="38" height="38" alt=""/></td>
 <td style="vertical-align:top">
@@ -266,28 +266,16 @@
 
 </div>
 
-<!-- ===== SOCIAL BADGES ===== -->
+<!-- ===== OPEN CHANNELS ===== -->
 <br/>
 <div align="center">
-
-<img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/social-dock.svg" alt="Open channels: email, LinkedIn, Instagram, and GitHub" />
-
-<br/>
-
-<a href="mailto:riorizqi918@gmail.com">
-  <img src="https://img.shields.io/badge/Email-10B981?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B0F1A" alt="Email" />
-</a>
-<a href="https://www.linkedin.com/in/rio-rizqi-saputra-a86441417">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B0F1A" alt="LinkedIn" />
-</a>
-<a href="https://www.instagram.com/riio_gorioio">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0B0F1A" alt="Instagram" />
-</a>
-<a href="https://github.com/riorizqi-dev">
-  <img src="https://img.shields.io/badge/GitHub-818CF8?style=for-the-badge&logo=github&logoColor=white&labelColor=0B0F1A" alt="GitHub" />
-</a>
-<a href="https://portfolio-rio-green.vercel.app/">
-  <img src="https://img.shields.io/badge/Portfolio-22D3EE?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0B0F1A" alt="Portfolio" />
-</a>
-
+<table style="width:100%;background:#0B1220;border:1px solid #334155;border-radius:14px;border-collapse:separate;table-layout:fixed;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+<tr><td colspan="4" style="padding:18px 22px 8px;color:#22D3EE;font-size:12px;letter-spacing:2px">OPEN CHANNELS</td></tr>
+<tr>
+<td style="padding:10px 22px 20px;border-right:1px solid #1E293B"><a href="mailto:riorizqi918@gmail.com" style="text-decoration:none"><div style="color:#64748B;font-size:12px">01</div><div style="color:#F8FAFC;font-size:14px;font-weight:700;margin-top:7px">EMAIL</div><div style="color:#22D3EE;font-size:11px;margin-top:7px">connect &gt;</div></a></td>
+<td style="padding:10px 22px 20px;border-right:1px solid #1E293B"><a href="https://www.linkedin.com/in/rio-rizqi-saputra-a86441417" style="text-decoration:none"><div style="color:#64748B;font-size:12px">02</div><div style="color:#F8FAFC;font-size:14px;font-weight:700;margin-top:7px">LINKEDIN</div><div style="color:#22D3EE;font-size:11px;margin-top:7px">connect &gt;</div></a></td>
+<td style="padding:10px 22px 20px;border-right:1px solid #1E293B"><a href="https://www.instagram.com/riio_gorioio" style="text-decoration:none"><div style="color:#64748B;font-size:12px">03</div><div style="color:#F8FAFC;font-size:14px;font-weight:700;margin-top:7px">INSTAGRAM</div><div style="color:#22D3EE;font-size:11px;margin-top:7px">connect &gt;</div></a></td>
+<td style="padding:10px 22px 20px"><a href="https://github.com/riorizqi-dev" style="text-decoration:none"><div style="color:#64748B;font-size:12px">04</div><div style="color:#F8FAFC;font-size:14px;font-weight:700;margin-top:7px">GITHUB</div><div style="color:#22D3EE;font-size:11px;margin-top:7px">connect &gt;</div></a></td>
+</tr>
+</table>
 </div>
