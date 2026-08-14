@@ -1,0 +1,14 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#080608"/><stop offset="1" stop-color="#170B08"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="3" y="3" width="1194" height="354" rx="18" fill="url(#bg)" stroke="#7C2D12" stroke-width="2"/>
+<path d="M30 74H1170M30 286H1170" stroke="#451A03"/><path d="M30 74V30H88M1112 30H1170V74M30 286V330H88M1112 330H1170V286" stroke="#F59E0B" stroke-width="3"/>
+<circle cx="90" cy="30" r="4" fill="#EF4444"/><circle cx="1110" cy="330" r="4" fill="#F59E0B"/>
+<text x="600" y="130" text-anchor="middle" fill="#FFF7ED" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="800" letter-spacing="5" filter="url(#glow)">RIO RIZQI</text>
+<text x="600" y="169" text-anchor="middle" fill="#F59E0B" font-family="monospace" font-size="20" font-weight="700" letter-spacing="4">FRONTEND • FULL-STACK • UI SYSTEMS</text>
+<path d="M470 195H730" stroke="#F59E0B" stroke-width="4"/><path d="M520 195H680" stroke="#FDE68A" stroke-width="2" filter="url(#glow)"/>
+<text x="600" y="244" text-anchor="middle" fill="#FDBA74" font-family="monospace" font-size="16" letter-spacing="3">BUILDING DIGITAL EXPERIENCES THAT SHIP</text>
+<rect x="480" y="274" width="240" height="43" rx="8" fill="#1C0C05" stroke="#F59E0B" stroke-width="2"/><circle cx="510" cy="295" r="6" fill="#22C55E"/><text x="600" y="302" text-anchor="middle" fill="#FFF7ED" font-family="monospace" font-size="15" font-weight="700" letter-spacing="3">OPEN TO WORK</text>
+</svg>
