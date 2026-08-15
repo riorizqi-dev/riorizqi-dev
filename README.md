@@ -12,7 +12,11 @@
 <br/>
 
 <div align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/contribution-flight.gif" alt="Animated contribution graph with a spacecraft firing lasers" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/output/galaga-contribution-graph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/output/galaga-contribution-graph.svg" />
+    <img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/output/galaga-contribution-graph-dark.svg" alt="Rio Rizqi Galaga contribution graph with a shooting spacecraft" />
+  </picture>
 </div>
 
 <br/>
