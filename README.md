@@ -12,7 +12,7 @@
 <br/>
 
 <div align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/contribution-flight.svg" alt="Contribution graph with a spacecraft firing lasers" />
+  <img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/contribution-flight.gif" alt="Animated contribution graph with a spacecraft firing lasers" />
 </div>
 
 <br/>
