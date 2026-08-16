@@ -71,8 +71,8 @@
 <br/>
 
 <div align="center">
-  <img width="49%" src="https://ghstats-sigma.vercel.app/api?username=riorizqi-dev&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=F59E0B&text_color=94A3B8&bg_color=080B12&card_width=500" alt="GitHub statistics" />
-  <img width="49%" src="https://ghstats-sigma.vercel.app/api/top-langs/?username=riorizqi-dev&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=080B12&card_width=500" alt="Top programming languages" />
+  <img width="49%" src="https://ghstats-sigma.vercel.app/api?username=riorizqi-dev&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=F59E0B&text_color=94A3B8&bg_color=080B12&card_width=500&cache_seconds=1800" alt="GitHub statistics" />
+  <img width="49%" src="https://ghstats-sigma.vercel.app/api/top-langs/?username=riorizqi-dev&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=080B12&card_width=500&cache_seconds=1800" alt="Top programming languages" />
 </div>
 
 <br/>
