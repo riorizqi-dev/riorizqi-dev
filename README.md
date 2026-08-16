@@ -65,7 +65,7 @@
 <br/>
 
 <div align="center">
-  <img width="100%" src="https://streak-stats.demolab.com/?user=riorizqi-dev&hide_border=true&background=080B12&stroke=22D3EE&ring=F59E0B&fire=EF4444&currStreakLabel=F59E0B&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" alt="GitHub contribution streak" />
+  <img width="100%" src="https://streak-stats-riorizqi.vercel.app/?user=riorizqi-dev&hide_border=true&background=080B12&stroke=22D3EE&ring=F59E0B&fire=EF4444&currStreakLabel=F59E0B&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" alt="GitHub contribution streak" />
 </div>
 
 <br/>
