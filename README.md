@@ -118,7 +118,7 @@ Profil ini dikerjakan dengan bantuan Codex.
   <img src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/sections/city.svg?v=4" width="100%" alt="3D Contributions" />
 </picture>
 
-<img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/kota-kontribusi.svg" alt="Kota Kontribusi: animasi grafik 3D aktivitas publik Rio" />
+<img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/kota-kontribusi.webp" alt="Kota Kontribusi: animasi grafik 3D aktivitas publik Rio" />
 
 <picture>
   <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/divider.svg?v=3" />
