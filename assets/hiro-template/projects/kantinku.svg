@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="222" viewBox="0 0 390 222" role="img" aria-label="Kantinku">
+  <title>Kantinku</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3ddc6b"/><stop offset="1" stop-color="#7dcfff"/></linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <radialGradient id="gl" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#3ddc6b" stop-opacity=".28"/><stop offset="1" stop-color="#3ddc6b" stop-opacity="0"/></radialGradient>
+    <clipPath id="c"><rect width="390" height="222" rx="18"/></clipPath>
+    <style>
+      .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Noto Sans JP', sans-serif; } .mono { font-family: 'SFMono-Regular', 'JetBrains Mono', Consolas, Menlo, monospace; }
+      .blink { animation: blink 1s steps(1) infinite; } @keyframes blink { 50% { opacity: 0; } }
+      .star { animation: twinkle 3s ease-in-out infinite; }
+      .s2 { animation-delay: .8s; } .s3 { animation-delay: 1.6s; } .s4 { animation-delay: 2.2s; }
+      @keyframes twinkle { 0%,100% { opacity: .9; } 50% { opacity: .15; } }
+      .pulse { animation: pulse 2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes pulse { 0% { transform: scale(1); opacity: .8; } 100% { transform: scale(2.8); opacity: 0; } }
+
+      .shine { animation: shine 6s ease-in-out infinite; }
+      @keyframes shine { 0% { transform: translateX(-260px) skewX(-20deg); } 40%,100% { transform: translateX(550px) skewX(-20deg); } }
+      .bob { animation: bob 3.5s ease-in-out infinite; }
+      @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="390" height="222" fill="#1a1b27"/>
+    <circle cx="350" cy="10" r="150" fill="url(#gl)"><animate attributeName="r" values="130;165;130" dur="6s" repeatCount="indefinite"/></circle>
+    <rect class="shine" x="0" y="0" width="180" height="222" fill="url(#shine)"/>
+    <rect width="390" height="4" fill="url(#g)"/>
+    <g class="bob"><image x="22" y="22" width="54" height="54" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48cmVjdCB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgcng9IjIyIiBmaWxsPSIjM2RkYzZiIi8+PHJlY3QgeD0iMTcuNzUiIHk9IjUwIiB3aWR0aD0iNC41IiBoZWlnaHQ9IjIwIiByeD0iMi4yNSIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjI1Ljc1IiB5PSI0NCIgd2lkdGg9IjQuNSIgaGVpZ2h0PSIzMiIgcng9IjIuMjUiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSIzMy43NSIgeT0iMzciIHdpZHRoPSI0LjUiIGhlaWdodD0iNDYiIHJ4PSIyLjI1IiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iNDEuNzUiIHk9IjMwIiB3aWR0aD0iNC41IiBoZWlnaHQ9IjYwIiByeD0iMi4yNSIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjQ5Ljc1IiB5PSIyMiIgd2lkdGg9IjQuNSIgaGVpZ2h0PSI3NiIgcng9IjIuMjUiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSI1Ny43NSIgeT0iMTQiIHdpZHRoPSI0LjUiIGhlaWdodD0iOTIiIHJ4PSIyLjI1IiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iNjUuNzUiIHk9IjIyIiB3aWR0aD0iNC41IiBoZWlnaHQ9Ijc2IiByeD0iMi4yNSIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjczLjc1IiB5PSIzMCIgd2lkdGg9IjQuNSIgaGVpZ2h0PSI2MCIgcng9IjIuMjUiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSI4MS43NSIgeT0iMzciIHdpZHRoPSI0LjUiIGhlaWdodD0iNDYiIHJ4PSIyLjI1IiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iODkuNzUiIHk9IjQ0IiB3aWR0aD0iNC41IiBoZWlnaHQ9IjMyIiByeD0iMi4yNSIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9Ijk3Ljc1IiB5PSI1MCIgd2lkdGg9IjQuNSIgaGVpZ2h0PSIyMCIgcng9IjIuMjUiIGZpbGw9IiNmZmYiLz48L3N2Zz4K"/></g>
+    <text x="92" y="48" class="sans" font-size="24" font-weight="800" fill="#c0caf5">Kantinku</text>
+    <rect x="92" y="60" width="82" height="22" rx="11" fill="#9ece6a" fill-opacity=".12" stroke="#9ece6a" stroke-opacity=".45"/>
+    <circle class="pulse" cx="106" cy="71" r="3.5" fill="#9ece6a"/><circle cx="106" cy="71" r="3.5" fill="#9ece6a"/>
+    <text x="116" y="75" class="sans" font-size="10" font-weight="700" letter-spacing="1" fill="#9ece6a">PUBLIC</text>
+    <text x="24" y="124" class="sans" font-size="15.5" fill="#a9b1d6">Sistem pemesanan kantin</text><text x="24" y="147" class="sans" font-size="15.5" fill="#a9b1d6">dengan stok real-time.</text><rect x="24" y="172" width="96" height="26" rx="13" fill="#3ddc6b" fill-opacity=".12" stroke="#3ddc6b" stroke-opacity=".4"/><text x="72.0" y="189.5" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#3ddc6b">TypeScript</text><rect x="127" y="172" width="44" height="26" rx="13" fill="#3ddc6b" fill-opacity=".12" stroke="#3ddc6b" stroke-opacity=".4"/><text x="149.0" y="189.5" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#3ddc6b">Web</text><rect x="178" y="172" width="74" height="26" rx="13" fill="#3ddc6b" fill-opacity=".12" stroke="#3ddc6b" stroke-opacity=".4"/><text x="215.0" y="189.5" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#3ddc6b">Next.js</text><rect x="259" y="172" width="74" height="26" rx="13" fill="#3ddc6b" fill-opacity=".12" stroke="#3ddc6b" stroke-opacity=".4"/><text x="296.0" y="189.5" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#3ddc6b">Supabase</text>
+  </g>
+  <rect x=".5" y=".5" width="389" height="221" rx="18" fill="none" stroke="#3ddc6b" stroke-opacity=".3"/>
+</svg>

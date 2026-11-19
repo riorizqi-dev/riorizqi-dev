@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="630" viewBox="0 0 480 630" role="img" aria-label="Journey">
+  <title>Journey</title>
+  <defs>
+    <linearGradient id="ln" gradientUnits="userSpaceOnUse" x1="0" y1="100" x2="0" y2="560">
+      <stop offset="0" stop-color="#7aa2f7"/><stop offset=".25" stop-color="#9ece6a"/><stop offset=".5" stop-color="#5edcaa"/>
+      <stop offset=".7" stop-color="#9a6bff"/><stop offset=".85" stop-color="#3ddc6b"/><stop offset="1" stop-color="#f7768e"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="480" height="630" rx="20"/></clipPath>
+    <style>
+      .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Noto Sans JP', sans-serif; } .mono { font-family: 'SFMono-Regular', 'JetBrains Mono', Consolas, Menlo, monospace; }
+      .blink { animation: blink 1s steps(1) infinite; } @keyframes blink { 50% { opacity: 0; } }
+      .star { animation: twinkle 3s ease-in-out infinite; }
+      .s2 { animation-delay: .8s; } .s3 { animation-delay: 1.6s; } .s4 { animation-delay: 2.2s; }
+      @keyframes twinkle { 0%,100% { opacity: .9; } 50% { opacity: .15; } }
+      .pulse { animation: pulse 2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes pulse { 0% { transform: scale(1); opacity: .8; } 100% { transform: scale(2.8); opacity: 0; } }
+
+      .draw { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 2.4s ease-out .2s forwards; } @keyframes draw { to { stroke-dashoffset: 0; } }
+      .pop { animation: pop .5s cubic-bezier(.3,1.6,.5,1) backwards; transform-box: fill-box; transform-origin: center; }
+      @keyframes pop { from { opacity: 0; transform: translateX(-10px); } }
+      .spin { animation: spin 8s linear infinite; transform-box: fill-box; transform-origin: center; } @keyframes spin { to { transform: rotate(360deg); } }
+      .run { animation: run 6s ease-in-out infinite; }
+      @keyframes run { 0% { transform: translateY(0); opacity: 0; } 8%,92% { opacity: 1; } 100% { transform: translateY(460px); opacity: 0; } }
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="480" height="630" fill="#16161e"/>
+    <text x="24" y="40" font-family="'SFMono-Regular', 'JetBrains Mono', Consolas, Menlo, monospace" font-size="14" fill="#565f89">❯ <tspan fill="#bb9af7">git</tspan> log --reverse --oneline</text>
+    <line x1="60" y1="100" x2="60" y2="560" stroke="#2a2e42" stroke-width="4" stroke-linecap="round"/>
+    <line class="draw" pathLength="1" x1="60" y1="100" x2="60" y2="560" stroke="url(#ln)" stroke-width="4" stroke-linecap="round"/>
+    <circle class="run" cx="60" cy="100" r="5" fill="#fff"/>
+    <g class="pop" style="animation-delay:0.30s"><circle class="pulse" style="animation-delay:0.70s" cx="60" cy="100" r="22" fill="#7aa2f7" fill-opacity=".25"/>
+      <circle cx="60" cy="100" r="22" fill="#1a1b27" stroke="#7aa2f7" stroke-width="2.5"/>
+      <text x="60" y="107" text-anchor="middle" font-size="20">👋</text>
+      <text x="104" y="84" font-family="'SFMono-Regular', 'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" font-weight="700" fill="#7aa2f7">Nov 04 · 2025</text>
+      <text x="104" y="108" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="700" fill="#c0caf5">Joined GitHub</text>
+      <text x="104" y="130" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#a9b1d6">hello, world</text></g><g class="pop" style="animation-delay:0.60s"><circle class="pulse" style="animation-delay:1.00s" cx="60" cy="192" r="22" fill="#9ece6a" fill-opacity=".25"/>
+      <circle cx="60" cy="192" r="22" fill="#1a1b27" stroke="#9ece6a" stroke-width="2.5"/>
+      <text x="60" y="199" text-anchor="middle" font-size="20">🍅</text>
+      <text x="104" y="176" font-family="'SFMono-Regular', 'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" font-weight="700" fill="#9ece6a">Aug 12 · 2026</text>
+      <text x="104" y="200" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="700" fill="#c0caf5">Kantinku</text>
+      <text x="104" y="222" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#a9b1d6">kantin digital</text></g><g class="pop" style="animation-delay:0.90s"><circle class="pulse" style="animation-delay:1.30s" cx="60" cy="284" r="22" fill="#5edcaa" fill-opacity=".25"/>
+      <circle cx="60" cy="284" r="22" fill="#1a1b27" stroke="#5edcaa" stroke-width="2.5"/>
+      <text x="60" y="291" text-anchor="middle" font-size="20">🏝️</text>
+      <text x="104" y="268" font-family="'SFMono-Regular', 'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" font-weight="700" fill="#5edcaa">Aug 12 · 2026</text>
+      <text x="104" y="292" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="700" fill="#c0caf5">VANTOR</text>
+      <text x="104" y="314" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#a9b1d6">motion landing page</text></g><g class="pop" style="animation-delay:1.20s"><circle class="pulse" style="animation-delay:1.60s" cx="60" cy="376" r="22" fill="#9a6bff" fill-opacity=".25"/>
+      <circle cx="60" cy="376" r="22" fill="#1a1b27" stroke="#9a6bff" stroke-width="2.5"/>
+      <text x="60" y="383" text-anchor="middle" font-size="20">🐾</text>
+      <text x="104" y="360" font-family="'SFMono-Regular', 'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" font-weight="700" fill="#9a6bff">Aug 12 · 2026</text>
+      <text x="104" y="384" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="700" fill="#c0caf5">TaskTrack</text>
+      <text x="104" y="406" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#a9b1d6">Android · Kotlin</text></g><g class="pop" style="animation-delay:1.50s"><circle class="pulse" style="animation-delay:1.90s" cx="60" cy="468" r="22" fill="#3ddc6b" fill-opacity=".25"/>
+      <circle cx="60" cy="468" r="22" fill="#1a1b27" stroke="#3ddc6b" stroke-width="2.5"/>
+      <text x="60" y="475" text-anchor="middle" font-size="20">🎵</text>
+      <text x="104" y="452" font-family="'SFMono-Regular', 'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" font-weight="700" fill="#3ddc6b">Oct 12 · 2026</text>
+      <text x="104" y="476" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="700" fill="#c0caf5">Langkah Pertama</text>
+      <text x="104" y="498" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#a9b1d6">RPG pixel art</text></g><g class="pop" style="animation-delay:1.80s"><circle cx="60" cy="560" r="24" fill="none" stroke="#f7768e" stroke-width="2" stroke-dasharray="4 5" class="spin"/>
+      <circle cx="60" cy="560" r="22" fill="#1a1b27" stroke="#f7768e" stroke-width="2.5"/>
+      <text x="60" y="567" text-anchor="middle" font-size="20">🚀</text>
+      <text x="104" y="544" font-family="'SFMono-Regular', 'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" font-weight="700" fill="#f7768e">Next · soon™</text>
+      <text x="104" y="568" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="700" fill="#c0caf5">???</text>
+      <text x="104" y="590" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#a9b1d6">stay tuned</text></g>
+  </g>
+  <rect x=".5" y=".5" width="479" height="629" rx="20" fill="none" stroke="#bb9af7" stroke-opacity=".25"/>
+</svg>

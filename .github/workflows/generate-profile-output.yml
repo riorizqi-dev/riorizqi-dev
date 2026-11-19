@@ -22,11 +22,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate Galaga graph
+      - name: Generate Galaga, Pac-Man, and Breakout graphs
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: riorizqi-dev
-          games: 'galaga'
+          games: 'galaga,pacman,breakout'
 
       - name: Generate snake (light)
         uses: Platane/snk/svg-only@v3
@@ -45,6 +45,22 @@ jobs:
             dist/snake-dark.svg?color_snake=#A78BFA&color_dots=#161B22,#3b0764,#581c87,#7e22ce,#a21caf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Fit arcade graphs to the README width
+        run: |
+          sudo python3 - <<'PY'
+          from pathlib import Path
+          import re
+          for pattern in ("pacman-*.svg", "breakout-*.svg"):
+              for path in Path("dist").glob(pattern):
+                  source = path.read_text()
+                  head = re.search(r"<svg\b[^>]*>", source)[0]
+                  if "viewBox" in head:
+                      continue
+                  width = re.search(r'\bwidth="([\d.]+)', head)[1]
+                  height = re.search(r'\bheight="([\d.]+)', head)[1]
+                  path.write_text(source.replace(head, head[:-1] + f' viewBox="0 0 {width} {height}">', 1))
+          PY
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4

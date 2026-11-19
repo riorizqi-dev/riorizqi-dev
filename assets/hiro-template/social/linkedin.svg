@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="64" viewBox="0 0 260 64" role="img" aria-label="LinkedIn">
+  <title>LinkedIn</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A66C2"/><stop offset="1" stop-color="#0e8ad9"/></linearGradient>
+    <linearGradient id="s" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="260" height="64" rx="16"/></clipPath>
+    <style>
+      .sh { animation: sh 4.5s ease-in-out infinite; }
+      @keyframes sh { 0% { transform: translateX(-140px) skewX(-20deg); } 35%,100% { transform: translateX(320px) skewX(-20deg); } }
+      .ic { animation: ic 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes ic { 0%,100% { transform: rotate(0); } 8% { transform: rotate(-10deg); } 16% { transform: rotate(8deg); } 24% { transform: rotate(0); } }
+      .ar { animation: ar 1.6s ease-in-out infinite; }
+      @keyframes ar { 0%,100% { transform: translateX(0); } 50% { transform: translateX(4px); } }
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="260" height="64" fill="url(#g)"/>
+    <rect width="260" height="32" fill="#fff" fill-opacity=".06"/>
+    <rect class="sh" x="0" y="-10" width="70" height="84" fill="url(#s)"/>
+    <g transform="translate(20 20)"><g class="ic"><rect x="0" y="0" width="24" height="24" rx="5" fill="#fff"/><rect x="4.5" y="9.5" width="3.2" height="10" fill="#0A66C2"/><circle cx="6.1" cy="6" r="1.9" fill="#0A66C2"/><path d="M10.2 9.5h3v1.4c.5-.9 1.6-1.6 3.1-1.6 2.6 0 3.3 1.7 3.3 4.1v6.1h-3.2v-5.4c0-1.2-.3-2-1.4-2-1.2 0-1.6.9-1.6 2.1v5.3h-3.2z" fill="#0A66C2"/></g></g>
+    <text x="60" y="30" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" font-weight="800" fill="#fff">LinkedIn</text>
+    <text x="60" y="48" font-family="'SFMono-Regular', 'JetBrains Mono', Consolas, Menlo, monospace" font-size="12" fill="#fff" fill-opacity=".8">Rio Rizqi Saputra</text>
+    <g class="ar"><path d="M226 25 l8 7 -8 7" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+  </g>
+  <rect x=".5" y=".5" width="259" height="63" rx="16" fill="none" stroke="#fff" stroke-opacity=".18"/>
+</svg>

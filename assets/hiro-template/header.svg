@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Rio Rizqi Saputra">
+  <title>Rio Rizqi Saputra</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1b27"/>
+      <stop offset="1" stop-color="#13141c"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7aa2f7"/>
+      <stop offset="0.35" stop-color="#bb9af7"/>
+      <stop offset="0.65" stop-color="#f7768e"/>
+      <stop offset="1" stop-color="#7aa2f7"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.5 0;0.5 0;-0.5 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="shoot" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c0caf5" stop-opacity="0"/>
+      <stop offset="1" stop-color="#c0caf5"/>
+    </linearGradient>
+    <linearGradient id="eq" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#7aa2f7"/>
+      <stop offset="1" stop-color="#bb9af7"/>
+    </linearGradient>
+    <linearGradient id="cover" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#bb9af7"/>
+      <stop offset="1" stop-color="#f7768e"/>
+    </linearGradient>
+    <radialGradient id="glowBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7aa2f7" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPink" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#bb9af7" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#bb9af7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#a9b1d6" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="340" rx="22"/></clipPath>
+    <clipPath id="typed">
+      <rect x="347" y="80" height="34" width="0">
+        <animate attributeName="width" values="0;0;86;86;0" keyTimes="0;0.08;0.3;0.85;1" dur="7s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="progress">
+      <rect x="882" y="284" height="4" width="0" rx="2">
+        <animate attributeName="width" values="0;256" dur="14s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <style>
+      .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Noto Sans JP', sans-serif; }
+      .mono { font-family: 'SFMono-Regular', 'JetBrains Mono', Consolas, Menlo, monospace; }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .star { animation: twinkle 3s ease-in-out infinite; }
+      .s2 { animation-delay: .8s; } .s3 { animation-delay: 1.6s; } .s4 { animation-delay: 2.2s; }
+      @keyframes twinkle { 0%,100% { opacity: .9; } 50% { opacity: .15; } }
+      .float { animation: float 5s ease-in-out infinite; }
+      .f1 { animation-delay: .4s; } .f2 { animation-delay: .8s; } .f3 { animation-delay: 1.2s; } .f4 { animation-delay: 1.6s; }
+      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+      .card-float { animation: cardfloat 7s ease-in-out infinite; }
+      .card-float2 { animation: cardfloat 7s ease-in-out infinite; animation-delay: 1.5s; }
+      @keyframes cardfloat { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+      .pulse { animation: pulse 2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes pulse { 0% { transform: scale(1); opacity: .7; } 100% { transform: scale(3); opacity: 0; } }
+      .shoot { animation: shoot 9s ease-in infinite; }
+      @keyframes shoot { 0% { transform: translate(0,0); opacity: 0; } 2% { opacity: 1; } 10% { transform: translate(520px,130px); opacity: 0; } 100% { transform: translate(520px,130px); opacity: 0; } }
+      .l1 { animation: l1 8s infinite; } .l2 { animation: l2 8s infinite; } .l3 { animation: l3 8s infinite; } .l4 { animation: l4 8s infinite; }
+      @keyframes l1 { 0% { opacity: 1; } 92% { opacity: 1; } 96%,100% { opacity: 0; } }
+      @keyframes l2 { 0%,22% { opacity: 0; } 24%,92% { opacity: 1; } 96%,100% { opacity: 0; } }
+      @keyframes l3 { 0%,40% { opacity: 0; } 42%,92% { opacity: 1; } 96%,100% { opacity: 0; } }
+      @keyframes l4 { 0%,60% { opacity: 0; } 62%,92% { opacity: 1; } 96%,100% { opacity: 0; } }
+      .bar { transform-box: fill-box; transform-origin: bottom; animation: eq 1s ease-in-out infinite; }
+      .b2 { animation-duration: .8s; animation-delay: .2s; } .b3 { animation-duration: 1.2s; animation-delay: .1s; }
+      .b4 { animation-duration: .9s; animation-delay: .35s; } .b5 { animation-duration: 1.1s; animation-delay: .05s; }
+      @keyframes eq { 0%,100% { transform: scaleY(.3); } 50% { transform: scaleY(1); } }
+      .spin { animation: spin 6s linear infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#grid)"/>
+
+    <!-- moving glows -->
+    <circle cx="980" cy="60" r="260" fill="url(#glowBlue)">
+      <animate attributeName="cx" values="980;900;980" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="160" cy="320" r="240" fill="url(#glowPink)">
+      <animate attributeName="cx" values="160;260;160" dur="14s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- big kanji watermark -->
+    <text x="1180" y="300" text-anchor="end" class="sans" font-size="230" font-weight="700" fill="#c0caf5" fill-opacity="0.04">RR</text>
+
+    <!-- stars -->
+    <g fill="#c0caf5">
+      <circle class="star" cx="720" cy="52" r="2"/>
+      <circle class="star s2" cx="760" cy="168" r="1.5"/>
+      <circle class="star s3" cx="1180" cy="200" r="2"/>
+      <circle class="star s4" cx="640" cy="300" r="1.5"/>
+      <circle class="star s2" cx="770" cy="318" r="1.5"/>
+      <circle class="star s3" cx="560" cy="36" r="1.5"/>
+      <circle class="star s4" cx="480" cy="140" r="1"/>
+      <circle class="star" cx="1186" cy="30" r="1.5"/>
+    </g>
+
+    <!-- shooting star -->
+    <g class="shoot">
+      <line x1="420" y1="6" x2="510" y2="28" stroke="url(#shoot)" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <!-- window dots + status -->
+    <circle cx="44" cy="40" r="7" fill="#f7768e"/>
+    <circle cx="68" cy="40" r="7" fill="#e0af68"/>
+    <circle cx="92" cy="40" r="7" fill="#9ece6a"/>
+    <rect x="120" y="26" width="214" height="28" rx="14" fill="#9ece6a" fill-opacity="0.1" stroke="#9ece6a" stroke-opacity="0.35"/>
+    <circle class="pulse" cx="138" cy="40" r="5" fill="#9ece6a"/>
+    <circle cx="138" cy="40" r="5" fill="#9ece6a"/>
+    <text x="152" y="45" class="sans" font-size="14" font-weight="600" fill="#9ece6a">featured · Kantinku</text>
+
+    <!-- prompt with typing whoami -->
+    <text x="70" y="104" class="mono" font-size="22">
+      <tspan fill="#9ece6a">rio@github</tspan><tspan fill="#565f89">:</tspan><tspan fill="#7aa2f7">~</tspan><tspan fill="#bb9af7"> ❯ </tspan>
+    </text>
+    <text x="347" y="104" class="mono" font-size="22" fill="#c0caf5" clip-path="url(#typed)">whoami</text>
+    <rect class="cursor" x="349" y="86" width="12" height="22" fill="#c0caf5">
+      <animate attributeName="x" values="349;349;435;435;349" keyTimes="0;0.08;0.3;0.85;1" dur="7s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- name -->
+    <text x="66" y="188" class="sans" font-size="76" font-weight="800" letter-spacing="-1.5" fill="url(#name)">Rio Rizqi Saputra</text>
+
+    <!-- subtitle -->
+    <text x="70" y="236" class="sans" font-size="26" fill="#a9b1d6">
+      <tspan fill="#c0caf5" font-weight="600">@riorizqi-dev</tspan><tspan fill="#565f89">  ·  </tspan>Web · Android · Pixel art
+    </text>
+
+    <!-- chips -->
+    <g class="sans" font-size="17" font-weight="600">
+      <g class="float">
+        <rect x="70" y="264" width="134" height="36" rx="18" fill="#7aa2f7" fill-opacity="0.14" stroke="#7aa2f7" stroke-opacity="0.5"/>
+        <text x="137" y="288" text-anchor="middle" fill="#7aa2f7">TypeScript</text>
+      </g>
+      <g class="float f1">
+        <rect x="216" y="264" width="96" height="36" rx="18" fill="#9ece6a" fill-opacity="0.14" stroke="#9ece6a" stroke-opacity="0.5"/>
+        <text x="264" y="288" text-anchor="middle" fill="#9ece6a">Kotlin</text>
+      </g>
+      <g class="float f2">
+        <rect x="324" y="264" width="130" height="36" rx="18" fill="#bb9af7" fill-opacity="0.14" stroke="#bb9af7" stroke-opacity="0.5"/>
+        <text x="389" y="288" text-anchor="middle" fill="#bb9af7">Godot</text>
+      </g>
+      <g class="float f3">
+        <rect x="466" y="264" width="126" height="36" rx="18" fill="#e0af68" fill-opacity="0.14" stroke="#e0af68" stroke-opacity="0.5"/>
+        <text x="529" y="288" text-anchor="middle" fill="#e0af68">Next.js</text>
+      </g>
+      <g class="float f4">
+        <rect x="604" y="264" width="150" height="36" rx="18" fill="#f7768e" fill-opacity="0.14" stroke="#f7768e" stroke-opacity="0.5"/>
+        <text x="679" y="288" text-anchor="middle" fill="#f7768e">Pixel Art</text>
+      </g>
+    </g>
+
+    <!-- agent terminal card -->
+    <g class="card-float">
+      <rect x="800" y="28" width="370" height="160" rx="14" fill="#16161e" fill-opacity="0.92" stroke="#7aa2f7" stroke-opacity="0.3"/>
+      <rect x="800" y="28" width="370" height="30" rx="14" fill="#1f2335"/>
+      <rect x="800" y="44" width="370" height="14" fill="#1f2335"/>
+      <circle cx="818" cy="43" r="4.5" fill="#f7768e"/>
+      <circle cx="834" cy="43" r="4.5" fill="#e0af68"/>
+      <circle cx="850" cy="43" r="4.5" fill="#9ece6a"/>
+      <text x="985" y="48" text-anchor="middle" class="mono" font-size="12" fill="#565f89">~/kantinku — terminal</text>
+      <g class="mono" font-size="14">
+        <text class="l1" x="816" y="84"><tspan fill="#bb9af7">❯ </tspan><tspan fill="#c0caf5">git log --oneline</tspan></text>
+        <text class="l2" x="816" y="110"><tspan fill="#7aa2f7">● </tspan><tspan fill="#a9b1d6">Pemesanan kantin</tspan></text>
+        <text class="l3" x="816" y="136"><tspan fill="#e0af68">● </tspan><tspan fill="#a9b1d6">Stok real-time</tspan><tspan fill="#9ece6a"></tspan><tspan fill="#f7768e"></tspan></text>
+        <text class="l4" x="816" y="162"><tspan fill="#9ece6a">✓ </tspan><tspan fill="#9ece6a">Next.js + Supabase</tspan></text>
+      </g>
+    </g>
+
+    <!-- now playing card -->
+    <g class="card-float2">
+      <rect x="800" y="204" width="370" height="104" rx="14" fill="#16161e" fill-opacity="0.92" stroke="#bb9af7" stroke-opacity="0.3"/>
+      <rect x="816" y="220" width="54" height="54" rx="10" fill="url(#cover)"/>
+      <circle class="spin" cx="843" cy="247" r="16" fill="none" stroke="#1a1b27" stroke-opacity="0.6" stroke-width="2" stroke-dasharray="6 5"/>
+      <text x="843" y="254" text-anchor="middle" font-size="20" fill="#1a1b27">♪</text>
+      <text x="882" y="236" class="sans" font-size="12" font-weight="700" letter-spacing="1.5" fill="#bb9af7">PROJECT SPOTLIGHT</text>
+      <text x="882" y="259" class="sans" font-size="17" font-weight="600" fill="#c0caf5">Langkah Pertama di Kota</text>
+      <text x="882" y="276" class="sans" font-size="13" fill="#565f89">Godot 4 · Pixel art</text>
+      <rect x="882" y="284" width="256" height="4" rx="2" fill="#2a2e42"/>
+      <rect x="882" y="284" width="256" height="4" rx="2" fill="#bb9af7" clip-path="url(#progress)"/>
+      <g fill="url(#eq)">
+        <rect class="bar" x="1110" y="222" width="6" height="40" rx="3"/>
+        <rect class="bar b2" x="1120" y="222" width="6" height="40" rx="3"/>
+        <rect class="bar b3" x="1130" y="222" width="6" height="40" rx="3"/>
+        <rect class="bar b4" x="1140" y="222" width="6" height="40" rx="3"/>
+        <rect class="bar b5" x="1150" y="222" width="6" height="40" rx="3"/>
+      </g>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="339" rx="22" fill="none" stroke="#7aa2f7" stroke-opacity="0.25"/>
+</svg>
