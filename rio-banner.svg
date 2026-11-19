@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" role="img" aria-labelledby="title">
+  <title id="title">Rio Rizqi Saputra, Web dan Android</title>
+  <defs>
+    <clipPath id="frame"><rect width="960" height="300" rx="18"/></clipPath>
+    <radialGradient id="planet" cx="32%" cy="24%" r="83%">
+      <stop stop-color="#ffe1a8"/>
+      <stop offset=".54" stop-color="#db9959"/>
+      <stop offset="1" stop-color="#713f38"/>
+    </radialGradient>
+    <pattern id="terrain" width="15" height="12" patternUnits="userSpaceOnUse">
+      <path d="M0 9Q8 4 15 9" fill="none" stroke="#5a352e" opacity=".25"/>
+    </pattern>
+  </defs>
+  <g clip-path="url(#frame)">
+    <path fill="#151e28" d="M0 0h960v300H0z"/>
+    <path fill="#1d2a35" d="M590 300 810 0h150v300z"/>
+    <g fill="#e7b679">
+      <circle cx="623" cy="56" r="2"/><circle cx="888" cy="65" r="2"/>
+      <circle cx="909" cy="213" r="2"/><circle cx="653" cy="239" r="2"/>
+      <circle cx="822" cy="245" r="2"/><circle cx="717" cy="38" r="1.5"/>
+    </g>
+    <ellipse cx="775" cy="151" rx="154" ry="34" transform="rotate(-24 775 151)" fill="none" stroke="#bc895a" stroke-width="2"/>
+    <circle cx="775" cy="151" r="79" fill="url(#planet)"/>
+    <circle cx="775" cy="151" r="79" fill="url(#terrain)"/>
+    <path d="M621 151a154 34 0 0 0 308 0" transform="rotate(-24 775 151)" fill="none" stroke="#ffe4ba" stroke-width="3"/>
+    <circle cx="899" cy="116" r="6" fill="#fff1d9"/>
+    <path d="M58 71h56" stroke="#e7b679" stroke-width="3"/>
+    <text x="58" y="113" fill="#e7b679" font-family="monospace" font-size="24">@riorizqi-dev</text>
+    <text x="54" y="182" fill="#fff1d9" font-family="Georgia,serif" font-size="65" font-weight="bold">Rio Rizqi</text>
+    <text x="58" y="228" fill="#d9e2e8" font-family="Arial,sans-serif" font-size="29">Web, Android &amp; pixel art</text>
+  </g>
+</svg>
