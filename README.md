@@ -63,6 +63,12 @@ Proyek lain · [Cafe Yo](https://github.com/riorizqi-dev/cafe-yo) · [RFM Market
   <img width="100%" src="https://streak-stats-riorizqi.vercel.app/?user=riorizqi-dev&hide_border=true&background=080B12&stroke=22D3EE&ring=F59E0B&fire=EF4444&currStreakLabel=F59E0B&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" alt="GitHub contribution streak" />
 </div>
 
+## Kontribusi 3D
+
+[![Grafik 3D intensitas kontribusi Rio](./assets/contribution-terrain.svg)](https://github.com/riorizqi-dev#contribution-activity)
+
+Peta kontribusi publik per 19 Nov 2026.
+
 ## Contribution arcade
 
 ### Galaga
@@ -89,3 +95,7 @@ Proyek lain · [Cafe Yo](https://github.com/riorizqi-dev/cafe-yo) · [RFM Market
 ## Guestbook
 
 [Sampein salam lewat GitHub Issues](https://github.com/riorizqi-dev/riorizqi-dev/issues/new?title=Guestbook%3A%20Halo%20Rio)
+
+<p align="center">
+  <a href="https://github.com/riorizqi-dev/langkah-pertama-di-kota"><img width="100%" src="./assets/kota-night.svg" alt="Ilustrasi kota malam bergaya pixel art. Buka repo Langkah Pertama di Kota." /></a>
+</p>
