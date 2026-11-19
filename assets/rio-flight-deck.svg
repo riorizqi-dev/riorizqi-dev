@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 264" role="img" aria-labelledby="title">
+<title id="title">Rio Rizqi Saputra • Web, Android dan pixel art</title>
+<defs><linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#141c29"/><stop offset="1" stop-color="#1d2633"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="262" rx="16" fill="url(#panel)" stroke="#405063"/>
+
+<path d="M20 48H880" stroke="#405063"/>
+<circle cx="28" cy="25" r="5" fill="#f08d83"/><circle cx="46" cy="25" r="5" fill="#f8c979"/><circle cx="64" cy="25" r="5" fill="#89d7ba"/>
+<path d="M608 49v194" stroke="#405063"/>
+<ellipse cx="751" cy="144" rx="108" ry="31" transform="rotate(-24 751 144)" fill="none" stroke="#87d8c0"/>
+<circle cx="751" cy="144" r="56" fill="#f8c979"/>
+<path d="M696 145q53 16 109-12m-98 47q41 9 79-14" fill="none" stroke="#a96148" stroke-width="3"/>
+<path d="M643 144a108 31 0 0 0 216 0" transform="rotate(-24 751 144)" fill="none" stroke="#dafbf0" stroke-width="2"/>
+<circle cx="825" cy="104" r="5" fill="#dafbf0"/>
+<text x="83" y="31" font-family="Consolas,monospace" font-weight="400" font-size="16" fill="#bccbdd">riorizqi-dev / README.md</text><text x="34" y="87" font-family="Consolas,monospace" font-weight="400" font-size="21" fill="#8ee2c7">&gt; whoami</text><text x="31" y="153" font-family="Arial,sans-serif" font-weight="700" font-size="55" fill="#edf3fa">Rio Rizqi Saputra</text><text x="34" y="193" font-family="Arial,sans-serif" font-weight="400" font-size="27" fill="#bccbdd">Web, Android &amp; pixel art</text><text x="34" y="231" font-family="Consolas,monospace" font-weight="400" font-size="21" fill="#f8c979">Next.js  /  Kotlin  /  Godot</text>
+</svg>
