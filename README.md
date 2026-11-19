@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="./assets/rio-flight-deck.svg" alt="Rio Rizqi Saputra, @riorizqi-dev. Web, Android dan pixel art." />
+  <img width="100%" src="./assets/identity-panel.svg" alt="Rio Rizqi. Frontend, full-stack dan UI systems." />
 </div>
 
 <p align="center">
@@ -25,7 +25,7 @@ Aku **Rio Rizqi Saputra**. Di GitHub aku bikin sistem pemesanan sekolah, aplikas
 - **Game** · Cerita slice of life dengan Godot di Langkah Pertama di Kota.
 
 <div align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/orbital-flight.svg" alt="Animated spacecraft flying across the project orbit" />
+  <a href="#contribution-arcade"><img width="100%" src="./assets/project-orbit.gif" alt="Pesawat animasi Project Orbit. Buka contribution arcade." /></a>
 </div>
 
 ## Proyek pilihan
@@ -87,6 +87,10 @@ Peta kontribusi publik per 19 Nov 2026.
 
 ## Contribution arcade
 
+**[Main CardFlip](https://cardflip-plum.vercel.app/)** · Game memory matching buatanku dengan tiga tingkat kesulitan. [Lihat repo](https://github.com/riorizqi-dev/cardflip).
+
+Galaga dan Snake di bawah ini adalah animasi dari kalender kontribusiku.
+
 <details open>
 <summary><strong>Galaga</strong></summary>
 
@@ -119,7 +123,7 @@ Peta kontribusi publik per 19 Nov 2026.
 [✍️ Tulis salam](https://github.com/riorizqi-dev/riorizqi-dev/issues/new?template=guestbook.yml) · [Baca salam pengunjung](https://github.com/riorizqi-dev/riorizqi-dev/issues?q=is%3Aissue+in%3Atitle+%22Guestbook%3A%22)
 
 <details>
-<summary><strong>Buka transmisi terakhir</strong></summary>
+<summary><strong>Easter egg · Buka transmisi terakhir</strong></summary>
 
 ```text
 > scan --kota
