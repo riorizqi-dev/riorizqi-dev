@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/header.svg?v=3" />
-  <img src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/header.svg?v=3" width="100%" alt="Rio Rizqi Saputra" />
+  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/header.svg?v=4" />
+  <img src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/header.svg?v=4" width="100%" alt="Rio Rizqi Saputra" />
 </picture>
 
 <div align="center">
@@ -19,8 +19,8 @@
 </div>
 
 <picture>
-  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/section-about.svg?v=3" />
-  <img src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/sections/about.svg?v=3" width="100%" alt="About Me" />
+  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/section-about.svg?v=4" />
+  <img src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/sections/about.svg?v=4" width="100%" alt="About Me" />
 </picture>
 
 <p align="center"><img src="assets/hiro-template/desk.svg?v=3" width="360" alt="A cozy coding desk: sleeping cat, coffee and code" /></p>
@@ -47,8 +47,8 @@ Aku **Rio Rizqi Saputra**. Aku bikin aplikasi web, Android, dan game pixel art.
 </picture>
 
 <picture>
-  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/section-projects.svg?v=3" />
-  <img src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/sections/projects.svg?v=3" width="100%" alt="Projects" />
+  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/section-projects.svg?v=4" />
+  <img src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/sections/projects.svg?v=4" width="100%" alt="Projects" />
 </picture>
 
 <p align="center">
@@ -59,8 +59,8 @@ Aku **Rio Rizqi Saputra**. Aku bikin aplikasi web, Android, dan game pixel art.
 </p>
 
 <picture>
-  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/section-journey.svg?v=3" />
-  <img src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/sections/journey.svg?v=3" width="100%" alt="Journey" />
+  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/section-journey.svg?v=4" />
+  <img src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/sections/journey.svg?v=4" width="100%" alt="Journey" />
 </picture>
 
 <picture>
@@ -87,8 +87,8 @@ Aku **Rio Rizqi Saputra**. Aku bikin aplikasi web, Android, dan game pixel art.
 - **Android & game** · Kotlin, Godot, GDScript
 
 <picture>
-  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/section-ai.svg?v=3" />
-  <img src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/sections/ai.svg?v=3" width="100%" alt="AI Toolbox" />
+  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/section-ai.svg?v=4" />
+  <img src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/sections/ai.svg?v=4" width="100%" alt="AI Toolbox" />
 </picture>
 
 Profil ini dikerjakan dengan bantuan Codex.
@@ -99,8 +99,8 @@ Profil ini dikerjakan dengan bantuan Codex.
 </picture>
 
 <picture>
-  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/section-stats.svg?v=3" />
-  <img src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/sections/stats.svg?v=3" width="100%" alt="GitHub Stats" />
+  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/section-stats.svg?v=4" />
+  <img src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/sections/stats.svg?v=4" width="100%" alt="GitHub Stats" />
 </picture>
 
 <div align="center">
@@ -114,11 +114,11 @@ Profil ini dikerjakan dengan bantuan Codex.
 </div>
 
 <picture>
-  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/section-city.svg?v=3" />
-  <img src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/sections/city.svg?v=3" width="100%" alt="3D Contributions" />
+  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/section-city.svg?v=4" />
+  <img src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/sections/city.svg?v=4" width="100%" alt="3D Contributions" />
 </picture>
 
-<img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/contribution-terrain.svg" alt="Grafik 3D kontribusi publik Rio" />
+<img width="100%" src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/kota-kontribusi.gif" alt="Kota Kontribusi: animasi grafik 3D aktivitas publik Rio" />
 
 <picture>
   <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/divider.svg?v=3" />
@@ -126,8 +126,8 @@ Profil ini dikerjakan dengan bantuan Codex.
 </picture>
 
 <picture>
-  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/section-arcade.svg?v=3" />
-  <img src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/sections/arcade.svg?v=3" width="100%" alt="Contribution Arcade" />
+  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/section-arcade.svg?v=4" />
+  <img src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/sections/arcade.svg?v=4" width="100%" alt="Contribution Arcade" />
 </picture>
 
 Animasi dari kalender kontribusiku. **[Main CardFlip](https://cardflip-plum.vercel.app/)** untuk mencoba game buatanku.
@@ -162,8 +162,8 @@ Animasi dari kalender kontribusiku. **[Main CardFlip](https://cardflip-plum.verc
 </picture>
 
 <picture>
-  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/section-guestbook.svg?v=3" />
-  <img src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/sections/guestbook.svg?v=3" width="100%" alt="Guestbook" />
+  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/section-guestbook.svg?v=4" />
+  <img src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/sections/guestbook.svg?v=4" width="100%" alt="Guestbook" />
 </picture>
 
 <p align="center">Isi formulir untuk menyapa, atau <a href="https://github.com/riorizqi-dev/riorizqi-dev/issues?q=is%3Aissue+in%3Atitle+%22Guestbook%3A%22">baca salam pengunjung</a>.</p>
@@ -175,8 +175,8 @@ Animasi dari kalender kontribusiku. **[Main CardFlip](https://cardflip-plum.verc
 
 
 <picture>
-  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/section-break.svg?v=3" />
-  <img src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/sections/break.svg?v=3" width="100%" alt="Break Time" />
+  <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/m/section-break.svg?v=4" />
+  <img src="https://raw.githubusercontent.com/riorizqi-dev/riorizqi-dev/main/assets/hiro-template/sections/break.svg?v=4" width="100%" alt="Break Time" />
 </picture>
 
 <picture>
