@@ -1,0 +1,12 @@
+name: Guestbook
+description: Tinggalkan salam di profil Rio
+title: "Guestbook: Halo Rio"
+body:
+  - type: textarea
+    id: message
+    attributes:
+      label: Pesan
+      description: Pesan ini akan terlihat sebagai issue publik.
+      placeholder: Halo Rio! Aku mampir dari...
+    validations:
+      required: true

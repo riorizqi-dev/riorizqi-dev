@@ -1,6 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 264" role="img" aria-labelledby="title">
 <title id="title">Rio Rizqi Saputra • Web, Android dan pixel art</title>
-<defs><linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#141c29"/><stop offset="1" stop-color="#1d2633"/></linearGradient></defs>
+<defs><linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#141c29"/><stop offset="1" stop-color="#1d2633"/></linearGradient>
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .signal { animation: signal 2.4s ease-in-out infinite; }
+      .cursor { animation: signal 1.2s steps(2, jump-none) infinite; }
+      .satellite { offset-anchor: 825px 104px; offset-path: path("M 825 104 C 893 98 860 53 759 103 C 634 152 608 211 706 190 C 766 174 805 133 825 104"); animation: orbit 12s linear infinite; }
+    }
+    @keyframes signal { 50% { opacity: .35; } }
+    @keyframes orbit { to { offset-distance: 100%; } }
+  </style>
+</defs>
 <rect x="1" y="1" width="898" height="262" rx="16" fill="url(#panel)" stroke="#405063"/>
 
 <path d="M20 48H880" stroke="#405063"/>
@@ -10,6 +20,13 @@
 <circle cx="751" cy="144" r="56" fill="#f8c979"/>
 <path d="M696 145q53 16 109-12m-98 47q41 9 79-14" fill="none" stroke="#a96148" stroke-width="3"/>
 <path d="M643 144a108 31 0 0 0 216 0" transform="rotate(-24 751 144)" fill="none" stroke="#dafbf0" stroke-width="2"/>
-<circle cx="825" cy="104" r="5" fill="#dafbf0"/>
+
+<g class="satellite">
+  <path d="M818 104l7-5 7 5-7 5z" fill="#dafbf0"/>
+  <path d="M808 104h8" stroke="#89d7ba" stroke-width="2"/>
+</g>
+<circle class="signal" cx="866" cy="25" r="5" fill="#89d7ba"/>
+<rect class="cursor" x="137" y="70" width="10" height="19" rx="1" fill="#8ee2c7"/>
+
 <text x="83" y="31" font-family="Consolas,monospace" font-weight="400" font-size="16" fill="#bccbdd">riorizqi-dev / README.md</text><text x="34" y="87" font-family="Consolas,monospace" font-weight="400" font-size="21" fill="#8ee2c7">&gt; whoami</text><text x="31" y="153" font-family="Arial,sans-serif" font-weight="700" font-size="55" fill="#edf3fa">Rio Rizqi Saputra</text><text x="34" y="193" font-family="Arial,sans-serif" font-weight="400" font-size="27" fill="#bccbdd">Web, Android &amp; pixel art</text><text x="34" y="231" font-family="Consolas,monospace" font-weight="400" font-size="21" fill="#f8c979">Next.js  /  Kotlin  /  Godot</text>
 </svg>
